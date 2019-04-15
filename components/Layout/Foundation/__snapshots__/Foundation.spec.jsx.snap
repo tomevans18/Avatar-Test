@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout - Foundation should render as expected 1`] = `
+<Fragment>
+  <Header
+    mainId="#mainContent"
+  />
+  <Content
+    id="mainContent"
+    tabIndex="-1"
+  >
+    <div>
+      TEST CONTENT
+    </div>
+  </Content>
+  <Footer />
+</Fragment>
+`;

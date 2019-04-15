@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render as expected with no passed component 1`] = `
+<Container>
+  <Head>
+    <title>
+      Avatar Test
+    </title>
+  </Head>
+  <AppProviders>
+    <Index />
+  </AppProviders>
+</Container>
+`;
+
+exports[`App should render as expected with passed component 1`] = `
+<Container>
+  <Head>
+    <title>
+      Avatar Test
+    </title>
+  </Head>
+  <GlobalStyleComponent />
+  <AppProviders>
+    <Index>
+      <Foundation>
+        <MockComponent />
+      </Foundation>
+    </Index>
+  </AppProviders>
+</Container>
+`;
+
+exports[`App should render only reset styles 1`] = `
+<Container>
+  <Head>
+    <title>
+      Avatar Test
+    </title>
+  </Head>
+  <GlobalStyleComponent />
+  <AppProviders>
+    <Index>
+      <Foundation>
+        <MockComponent />
+      </Foundation>
+    </Index>
+  </AppProviders>
+</Container>
+`;

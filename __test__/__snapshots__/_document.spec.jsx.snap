@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Document should create correct enhanced app 1`] = `<Component />`;
+
+exports[`Document should render as expected 1`] = `
+<html
+  lang="en"
+>
+  <Head>
+    <link
+      href="/static/favicon.ico"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <meta
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+      name="viewport"
+    />
+    <meta
+      content="This is a meta description for this website!!"
+      name="description"
+    />
+    <link
+      href="/static/manifest.webmanifest"
+      rel="manifest"
+    />
+  </Head>
+  <body>
+    <Main />
+    <NextScript />
+  </body>
+</html>
+`;

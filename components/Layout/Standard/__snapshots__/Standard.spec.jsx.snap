@@ -1,0 +1,1031 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout - Standard should render as expected with all props 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + 1.25em);
+}
+
+.c0 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: margin 0.2s ease-in-out;
+  transition: margin 0.2s ease-in-out;
+  padding-top: 1.25em;
+  border-top: 0.5rem solid #1e1e1e;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: margin 0.2s ease-in-out;
+  transition: margin 0.2s ease-in-out;
+  padding-top: 1.25em;
+  border-top: 0.5rem solid #1e1e1e;
+}
+
+@supports (padding:max(0px)) {
+  .c1 {
+    padding: 0 max(1.25em,env(safe-area-inset-left));
+  }
+}
+
+@media (min-width:769px) {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:769px) {
+  .c3 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+}
+
+@media (min-width:769px) {
+  .c2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1.25em;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    min-width: 16rem;
+    max-width: 25%;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding-top: 0;
+    border-top: none;
+    margin: 0 1.25em 0 0;
+  }
+}
+
+@media (min-width:1025px) {
+  .c2 {
+    margin: 0 2.5em 0 0;
+  }
+}
+
+@media (min-width:769px) {
+  .c4 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1.25em;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    min-width: 16rem;
+    max-width: 25%;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding-top: 0;
+    border-top: none;
+    margin: 0 0 0 1.25em;
+  }
+}
+
+@media (min-width:1025px) {
+  .c4 {
+    margin: 0 0 0 2.5em;
+  }
+}
+
+<Sidebar
+  addSpacing={true}
+  banner={[Function]}
+  content={[Function]}
+  leftSidebar={[Function]}
+  pageTitle="TEST TITLE"
+  rightSidebar={[Function]}
+  stretchLeft={true}
+  stretchMain={true}
+  stretchRight={true}
+>
+  <Head>
+    <SideEffect
+      handleStateChange={null}
+      isAmp={false}
+      reduceComponentsToState={[Function]}
+    />
+  </Head>
+  <div>
+    TEST BANNER
+  </div>
+  <Standardstyle__LayoutWrapper
+    flex={true}
+  >
+    <StyledComponent
+      flex={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Standardstyle__LayoutWrapper-ompvno-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "flex-direction:column;margin-bottom:",
+              [Function],
+              ";margin-top:",
+              [Function],
+              ";",
+              "@media (min-width:",
+              "769",
+              "px){",
+              "
+    flex-direction: row;
+  ",
+              "}",
+              ";",
+            ],
+          },
+          "displayName": "Standardstyle__LayoutWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Standardstyle__LayoutWrapper-ompvno-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <ContentWrapper
+        className="c0"
+        flex={true}
+      >
+        <ContentWrapperstyle
+          className="c0"
+          flex={true}
+        >
+          <StyledComponent
+            className="c0"
+            flex={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "ContentWrapperstyle-s3iiyi-0",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    [Function],
+                    " position:relative;width:100%;max-width:67rem;margin:0 auto;box-sizing:border-box;padding:0 calc(env(safe-area-inset-right) + ",
+                    [Function],
+                    ");@supports (padding:max(0px)){padding:0 max(",
+                    [Function],
+                    ",env(safe-area-inset-left));}",
+                  ],
+                },
+                "displayName": "ContentWrapperstyle",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "ContentWrapperstyle-s3iiyi-0",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c0 c1"
+            >
+              <Standardstyle__Aside
+                left={true}
+                stretch={true}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Standardstyle__Aside-ompvno-2",
+                        "isStatic": false,
+                        "lastClassName": "c4",
+                        "rules": Array [
+                          "display:flex;flex-direction:column;transition:margin 0.2s ease-in-out;padding-top:",
+                          [Function],
+                          ";border-top:0.5rem solid ",
+                          [Function],
+                          ";align-items:",
+                          [Function],
+                          ";",
+                          "@media (min-width:",
+                          "769",
+                          "px){",
+                          "
+    position: sticky;
+    top: ",
+                          [Function],
+                          ";
+    align-self: flex-start;
+    min-width: 16rem;
+    max-width: 25%;
+    flex-basis: auto;
+    flex-grow: 1;
+    padding-top: 0;
+    border-top: none;
+    margin: ",
+                          [Function],
+                          ";
+  ",
+                          "}",
+                          ";",
+                          "@media (min-width:",
+                          "1025",
+                          "px){",
+                          "
+    margin: ",
+                          [Function],
+                          ";
+  ",
+                          "}",
+                          ";",
+                        ],
+                      },
+                      "displayName": "Standardstyle__Aside",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Standardstyle__Aside-ompvno-2",
+                      "target": "aside",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  left={true}
+                  stretch={true}
+                >
+                  <aside
+                    className="c2"
+                  >
+                    <div>
+                      TEST LEFT ASIDE
+                    </div>
+                  </aside>
+                </StyledComponent>
+              </Standardstyle__Aside>
+              <Standardstyle__Main
+                stretch={true}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Standardstyle__Main-ompvno-1",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "display:flex;flex-direction:column;order:-1;",
+                          [Function],
+                          ";",
+                          "@media (min-width:",
+                          "769",
+                          "px){",
+                          "
+    flex: 1;
+    order: 0;
+  ",
+                          "}",
+                          ";",
+                        ],
+                      },
+                      "displayName": "Standardstyle__Main",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Standardstyle__Main-ompvno-1",
+                      "target": "main",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  stretch={true}
+                >
+                  <main
+                    className="c3"
+                  >
+                    <div>
+                      TEST CONTENT
+                    </div>
+                  </main>
+                </StyledComponent>
+              </Standardstyle__Main>
+              <Standardstyle__Aside
+                addSpacing={2}
+                right={true}
+                stretch={true}
+              >
+                <StyledComponent
+                  addSpacing={2}
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Standardstyle__Aside-ompvno-2",
+                        "isStatic": false,
+                        "lastClassName": "c4",
+                        "rules": Array [
+                          "display:flex;flex-direction:column;transition:margin 0.2s ease-in-out;padding-top:",
+                          [Function],
+                          ";border-top:0.5rem solid ",
+                          [Function],
+                          ";align-items:",
+                          [Function],
+                          ";",
+                          "@media (min-width:",
+                          "769",
+                          "px){",
+                          "
+    position: sticky;
+    top: ",
+                          [Function],
+                          ";
+    align-self: flex-start;
+    min-width: 16rem;
+    max-width: 25%;
+    flex-basis: auto;
+    flex-grow: 1;
+    padding-top: 0;
+    border-top: none;
+    margin: ",
+                          [Function],
+                          ";
+  ",
+                          "}",
+                          ";",
+                          "@media (min-width:",
+                          "1025",
+                          "px){",
+                          "
+    margin: ",
+                          [Function],
+                          ";
+  ",
+                          "}",
+                          ";",
+                        ],
+                      },
+                      "displayName": "Standardstyle__Aside",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Standardstyle__Aside-ompvno-2",
+                      "target": "aside",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  right={true}
+                  stretch={true}
+                >
+                  <aside
+                    className="c4"
+                  >
+                    <div>
+                      TEST RIGHT ASIDE
+                    </div>
+                  </aside>
+                </StyledComponent>
+              </Standardstyle__Aside>
+            </div>
+          </StyledComponent>
+        </ContentWrapperstyle>
+      </ContentWrapper>
+    </StyledComponent>
+  </Standardstyle__LayoutWrapper>
+</Sidebar>
+`;
+
+exports[`Layout - Standard should render as expected with left sidebar only 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + 1.25em);
+}
+
+.c0 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: margin 0.2s ease-in-out;
+  transition: margin 0.2s ease-in-out;
+  padding-top: 1.25em;
+  border-top: 0.5rem solid #1e1e1e;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@supports (padding:max(0px)) {
+  .c1 {
+    padding: 0 max(1.25em,env(safe-area-inset-left));
+  }
+}
+
+@media (min-width:769px) {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:769px) {
+  .c3 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+}
+
+@media (min-width:769px) {
+  .c2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1.25em;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    min-width: 16rem;
+    max-width: 25%;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding-top: 0;
+    border-top: none;
+    margin: 0 1.25em 0 0;
+  }
+}
+
+@media (min-width:1025px) {
+  .c2 {
+    margin: 0 2.5em 0 0;
+  }
+}
+
+<Sidebar
+  banner={null}
+  content={[Function]}
+  leftSidebar={[Function]}
+  pageTitle={null}
+  rightSidebar={null}
+  stretchLeft={false}
+  stretchMain={false}
+  stretchRight={false}
+>
+  <Standardstyle__LayoutWrapper
+    flex={true}
+  >
+    <StyledComponent
+      flex={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Standardstyle__LayoutWrapper-ompvno-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "flex-direction:column;margin-bottom:",
+              [Function],
+              ";margin-top:",
+              [Function],
+              ";",
+              "@media (min-width:",
+              "769",
+              "px){",
+              "
+    flex-direction: row;
+  ",
+              "}",
+              ";",
+            ],
+          },
+          "displayName": "Standardstyle__LayoutWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Standardstyle__LayoutWrapper-ompvno-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <ContentWrapper
+        className="c0"
+        flex={true}
+      >
+        <ContentWrapperstyle
+          className="c0"
+          flex={true}
+        >
+          <StyledComponent
+            className="c0"
+            flex={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "ContentWrapperstyle-s3iiyi-0",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    [Function],
+                    " position:relative;width:100%;max-width:67rem;margin:0 auto;box-sizing:border-box;padding:0 calc(env(safe-area-inset-right) + ",
+                    [Function],
+                    ");@supports (padding:max(0px)){padding:0 max(",
+                    [Function],
+                    ",env(safe-area-inset-left));}",
+                  ],
+                },
+                "displayName": "ContentWrapperstyle",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "ContentWrapperstyle-s3iiyi-0",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c0 c1"
+            >
+              <Standardstyle__Aside
+                left={true}
+                stretch={false}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Standardstyle__Aside-ompvno-2",
+                        "isStatic": false,
+                        "lastClassName": "c2",
+                        "rules": Array [
+                          "display:flex;flex-direction:column;transition:margin 0.2s ease-in-out;padding-top:",
+                          [Function],
+                          ";border-top:0.5rem solid ",
+                          [Function],
+                          ";align-items:",
+                          [Function],
+                          ";",
+                          "@media (min-width:",
+                          "769",
+                          "px){",
+                          "
+    position: sticky;
+    top: ",
+                          [Function],
+                          ";
+    align-self: flex-start;
+    min-width: 16rem;
+    max-width: 25%;
+    flex-basis: auto;
+    flex-grow: 1;
+    padding-top: 0;
+    border-top: none;
+    margin: ",
+                          [Function],
+                          ";
+  ",
+                          "}",
+                          ";",
+                          "@media (min-width:",
+                          "1025",
+                          "px){",
+                          "
+    margin: ",
+                          [Function],
+                          ";
+  ",
+                          "}",
+                          ";",
+                        ],
+                      },
+                      "displayName": "Standardstyle__Aside",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Standardstyle__Aside-ompvno-2",
+                      "target": "aside",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  left={true}
+                  stretch={false}
+                >
+                  <aside
+                    className="c2"
+                  >
+                    <div>
+                      TEST LEFT ASIDE
+                    </div>
+                  </aside>
+                </StyledComponent>
+              </Standardstyle__Aside>
+              <Standardstyle__Main
+                stretch={false}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Standardstyle__Main-ompvno-1",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "display:flex;flex-direction:column;order:-1;",
+                          [Function],
+                          ";",
+                          "@media (min-width:",
+                          "769",
+                          "px){",
+                          "
+    flex: 1;
+    order: 0;
+  ",
+                          "}",
+                          ";",
+                        ],
+                      },
+                      "displayName": "Standardstyle__Main",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Standardstyle__Main-ompvno-1",
+                      "target": "main",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  stretch={false}
+                >
+                  <main
+                    className="c3"
+                  >
+                    <div>
+                      TEST CONTENT
+                    </div>
+                  </main>
+                </StyledComponent>
+              </Standardstyle__Main>
+            </div>
+          </StyledComponent>
+        </ContentWrapperstyle>
+      </ContentWrapper>
+    </StyledComponent>
+  </Standardstyle__LayoutWrapper>
+</Sidebar>
+`;
+
+exports[`Layout - Standard should render as expected with only required props 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + 1.25em);
+}
+
+.c0 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+@supports (padding:max(0px)) {
+  .c1 {
+    padding: 0 max(1.25em,env(safe-area-inset-left));
+  }
+}
+
+@media (min-width:769px) {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:769px) {
+  .c2 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+}
+
+<Sidebar
+  banner={null}
+  content={[Function]}
+  leftSidebar={null}
+  pageTitle={null}
+  rightSidebar={null}
+  stretchLeft={false}
+  stretchMain={false}
+  stretchRight={false}
+>
+  <Standardstyle__LayoutWrapper
+    flex={true}
+  >
+    <StyledComponent
+      flex={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Standardstyle__LayoutWrapper-ompvno-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "flex-direction:column;margin-bottom:",
+              [Function],
+              ";margin-top:",
+              [Function],
+              ";",
+              "@media (min-width:",
+              "769",
+              "px){",
+              "
+    flex-direction: row;
+  ",
+              "}",
+              ";",
+            ],
+          },
+          "displayName": "Standardstyle__LayoutWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Standardstyle__LayoutWrapper-ompvno-0",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <ContentWrapper
+        className="c0"
+        flex={true}
+      >
+        <ContentWrapperstyle
+          className="c0"
+          flex={true}
+        >
+          <StyledComponent
+            className="c0"
+            flex={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "ContentWrapperstyle-s3iiyi-0",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    [Function],
+                    " position:relative;width:100%;max-width:67rem;margin:0 auto;box-sizing:border-box;padding:0 calc(env(safe-area-inset-right) + ",
+                    [Function],
+                    ");@supports (padding:max(0px)){padding:0 max(",
+                    [Function],
+                    ",env(safe-area-inset-left));}",
+                  ],
+                },
+                "displayName": "ContentWrapperstyle",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "ContentWrapperstyle-s3iiyi-0",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c0 c1"
+            >
+              <Standardstyle__Main
+                stretch={false}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Standardstyle__Main-ompvno-1",
+                        "isStatic": false,
+                        "lastClassName": "c2",
+                        "rules": Array [
+                          "display:flex;flex-direction:column;order:-1;",
+                          [Function],
+                          ";",
+                          "@media (min-width:",
+                          "769",
+                          "px){",
+                          "
+    flex: 1;
+    order: 0;
+  ",
+                          "}",
+                          ";",
+                        ],
+                      },
+                      "displayName": "Standardstyle__Main",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "Standardstyle__Main-ompvno-1",
+                      "target": "main",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  stretch={false}
+                >
+                  <main
+                    className="c2"
+                  >
+                    <div>
+                      TEST CONTENT
+                    </div>
+                  </main>
+                </StyledComponent>
+              </Standardstyle__Main>
+            </div>
+          </StyledComponent>
+        </ContentWrapperstyle>
+      </ContentWrapper>
+    </StyledComponent>
+  </Standardstyle__LayoutWrapper>
+</Sidebar>
+`;

@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resize Animation Handler should render as expected 1`] = `
+<ResizeAnimationHandlerstyle
+  resizing={false}
+>
+  <div />
+</ResizeAnimationHandlerstyle>
+`;
+
+exports[`Resize Animation Handler should render styles correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<ResizeAnimationHandlerstyle>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ResizeAnimationHandlerstyle-sc-1y0v65a-0",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "display:flex;flex-direction:column;flex:1;",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "ResizeAnimationHandlerstyle",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ResizeAnimationHandlerstyle-sc-1y0v65a-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <div
+      className="c0"
+    />
+  </StyledComponent>
+</ResizeAnimationHandlerstyle>
+`;
+
+exports[`Resize Animation Handler should render styles correctly on resize 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0 * {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+<ResizeAnimationHandlerstyle
+  resizing={true}
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "ResizeAnimationHandlerstyle-sc-1y0v65a-0",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "display:flex;flex-direction:column;flex:1;",
+            [Function],
+            ";",
+          ],
+        },
+        "displayName": "ResizeAnimationHandlerstyle",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "ResizeAnimationHandlerstyle-sc-1y0v65a-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    resizing={true}
+  >
+    <div
+      className="c0"
+    />
+  </StyledComponent>
+</ResizeAnimationHandlerstyle>
+`;

@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content should render as expected  1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  outline: none;
+}
+
+@media (min-width:769px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+<Content
+  passedComponentTest="test string"
+>
+  <Contentstyle
+    passedComponentTest="test string"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Contentstyle-sc-9vyqc-0",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "flex:1;flex-direction:column;outline:none;",
+              "@media (min-width:",
+              "769",
+              "px){",
+              "
+    display: flex;
+  ",
+              "}",
+              ";",
+            ],
+          },
+          "displayName": "Contentstyle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Contentstyle-sc-9vyqc-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      passedComponentTest="test string"
+    >
+      <div
+        className="c0"
+      >
+        <div>
+          TEST CONTENT
+        </div>
+      </div>
+    </StyledComponent>
+  </Contentstyle>
+</Content>
+`;

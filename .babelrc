@@ -1,0 +1,65 @@
+{
+  "env": {
+    "development": {
+      "plugins": [
+        [
+          "babel-plugin-styled-components",
+          {
+            "ssr": true,
+            "displayName": true,
+            "preprocess": false
+          }
+        ]
+      ],
+      "presets": [
+        ["next/babel", {
+          "preset-env": {
+            "targets": {
+              "browsers": "> 5%"
+            }
+          }
+        }]
+      ]
+    },
+    "production": {
+      "plugins": [
+        [
+          "babel-plugin-styled-components",
+          {
+            "ssr": true,
+            "displayName": true,
+            "preprocess": false
+          }
+        ]
+      ],
+      "presets": [
+        ["next/babel", {
+          "preset-env": {
+            "targets": {
+              "browsers": "> 5%"
+            }
+          }
+        }]
+      ]
+    },
+    "test": {
+      "presets": [
+        ["next/babel", {
+          "preset-env": {
+            "modules": "commonjs"
+          }
+        }]
+      ]
+    }
+  },
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}

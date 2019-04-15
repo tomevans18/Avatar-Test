@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accessibility Wrapper should initially render as expected 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0 *:focus {
+  outline: 0;
+}
+
+<Index>
+  <indexstyle
+    tabbing={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "indexstyle-sc-64rk59-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "display:flex;flex-direction:column;flex:1;*:focus{outline:",
+              [Function],
+              ";}",
+            ],
+          },
+          "displayName": "indexstyle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "indexstyle-sc-64rk59-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      tabbing={false}
+    >
+      <div
+        className="c0"
+      >
+        <MockComponent>
+          <div />
+        </MockComponent>
+      </div>
+    </StyledComponent>
+  </indexstyle>
+</Index>
+`;
+
+exports[`Accessibility Wrapper should not update on non tab key press 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0 *:focus {
+  outline: 0;
+}
+
+<Index>
+  <indexstyle
+    tabbing={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "indexstyle-sc-64rk59-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "display:flex;flex-direction:column;flex:1;*:focus{outline:",
+              [Function],
+              ";}",
+            ],
+          },
+          "displayName": "indexstyle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "indexstyle-sc-64rk59-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      tabbing={false}
+    >
+      <div
+        className="c0"
+      >
+        <MockComponent>
+          <div />
+        </MockComponent>
+      </div>
+    </StyledComponent>
+  </indexstyle>
+</Index>
+`;
+
+exports[`Accessibility Wrapper should update on mouse click 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0 *:focus {
+  outline: undefined auto 5px;
+}
+
+<Index>
+  <indexstyle
+    tabbing={true}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "indexstyle-sc-64rk59-0",
+            "isStatic": false,
+            "lastClassName": "gfNcBn",
+            "rules": Array [
+              "display:flex;flex-direction:column;flex:1;*:focus{outline:",
+              [Function],
+              ";}",
+            ],
+          },
+          "displayName": "indexstyle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "indexstyle-sc-64rk59-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      tabbing={true}
+    >
+      <div
+        className="c0"
+      >
+        <MockComponent>
+          <div />
+        </MockComponent>
+      </div>
+    </StyledComponent>
+  </indexstyle>
+</Index>
+`;
+
+exports[`Accessibility Wrapper should update on tab key press 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0 *:focus {
+  outline: 0;
+}
+
+<Index>
+  <indexstyle
+    tabbing={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "indexstyle-sc-64rk59-0",
+            "isStatic": false,
+            "lastClassName": "bnReAS",
+            "rules": Array [
+              "display:flex;flex-direction:column;flex:1;*:focus{outline:",
+              [Function],
+              ";}",
+            ],
+          },
+          "displayName": "indexstyle",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "indexstyle-sc-64rk59-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      tabbing={false}
+    >
+      <div
+        className="c0"
+      >
+        <MockComponent>
+          <div />
+        </MockComponent>
+      </div>
+    </StyledComponent>
+  </indexstyle>
+</Index>
+`;
