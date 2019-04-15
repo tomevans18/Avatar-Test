@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Avatar test",
+  "main": "index.js",
+  "author": "Tom Evans",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
