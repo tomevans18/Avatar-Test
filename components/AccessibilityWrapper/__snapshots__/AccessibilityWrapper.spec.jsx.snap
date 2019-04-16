@@ -19,7 +19,7 @@ exports[`Accessibility Wrapper should initially render as expected 1`] = `
 }
 
 <Index>
-  <indexstyle
+  <styled.div
     tabbing={false}
   >
     <StyledComponent
@@ -28,19 +28,27 @@ exports[`Accessibility Wrapper should initially render as expected 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "indexstyle-sc-64rk59-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "display:flex;flex-direction:column;flex:1;*:focus{outline:",
+              "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  *:focus {
+    outline: ",
               [Function],
-              ";}",
+              ";
+  }
+",
             ],
           },
-          "displayName": "indexstyle",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "indexstyle-sc-64rk59-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -58,7 +66,7 @@ exports[`Accessibility Wrapper should initially render as expected 1`] = `
         </MockComponent>
       </div>
     </StyledComponent>
-  </indexstyle>
+  </styled.div>
 </Index>
 `;
 
@@ -81,7 +89,7 @@ exports[`Accessibility Wrapper should not update on non tab key press 1`] = `
 }
 
 <Index>
-  <indexstyle
+  <styled.div
     tabbing={false}
   >
     <StyledComponent
@@ -90,19 +98,27 @@ exports[`Accessibility Wrapper should not update on non tab key press 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "indexstyle-sc-64rk59-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "display:flex;flex-direction:column;flex:1;*:focus{outline:",
+              "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  *:focus {
+    outline: ",
               [Function],
-              ";}",
+              ";
+  }
+",
             ],
           },
-          "displayName": "indexstyle",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "indexstyle-sc-64rk59-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -120,7 +136,7 @@ exports[`Accessibility Wrapper should not update on non tab key press 1`] = `
         </MockComponent>
       </div>
     </StyledComponent>
-  </indexstyle>
+  </styled.div>
 </Index>
 `;
 
@@ -143,7 +159,7 @@ exports[`Accessibility Wrapper should update on mouse click 1`] = `
 }
 
 <Index>
-  <indexstyle
+  <styled.div
     tabbing={true}
   >
     <StyledComponent
@@ -152,19 +168,27 @@ exports[`Accessibility Wrapper should update on mouse click 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "indexstyle-sc-64rk59-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
-            "lastClassName": "gfNcBn",
+            "lastClassName": "koQAwb",
             "rules": Array [
-              "display:flex;flex-direction:column;flex:1;*:focus{outline:",
+              "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  *:focus {
+    outline: ",
               [Function],
-              ";}",
+              ";
+  }
+",
             ],
           },
-          "displayName": "indexstyle",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "indexstyle-sc-64rk59-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -182,7 +206,7 @@ exports[`Accessibility Wrapper should update on mouse click 1`] = `
         </MockComponent>
       </div>
     </StyledComponent>
-  </indexstyle>
+  </styled.div>
 </Index>
 `;
 
@@ -205,7 +229,7 @@ exports[`Accessibility Wrapper should update on tab key press 1`] = `
 }
 
 <Index>
-  <indexstyle
+  <styled.div
     tabbing={false}
   >
     <StyledComponent
@@ -214,19 +238,27 @@ exports[`Accessibility Wrapper should update on tab key press 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "indexstyle-sc-64rk59-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
-            "lastClassName": "bnReAS",
+            "lastClassName": "eEikEx",
             "rules": Array [
-              "display:flex;flex-direction:column;flex:1;*:focus{outline:",
+              "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  *:focus {
+    outline: ",
               [Function],
-              ";}",
+              ";
+  }
+",
             ],
           },
-          "displayName": "indexstyle",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "indexstyle-sc-64rk59-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -244,6 +276,6 @@ exports[`Accessibility Wrapper should update on tab key press 1`] = `
         </MockComponent>
       </div>
     </StyledComponent>
-  </indexstyle>
+  </styled.div>
 </Index>
 `;

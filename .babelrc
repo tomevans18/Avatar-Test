@@ -27,7 +27,7 @@
           "babel-plugin-styled-components",
           {
             "ssr": true,
-            "displayName": true,
+            "displayName": false,
             "preprocess": false
           }
         ]
@@ -51,15 +51,5 @@
         }]
       ]
     }
-  },
-  "plugins": [
-    [
-      "babel-plugin-styled-components",
-      {
-        "ssr": true,
-        "displayName": true,
-        "preprocess": false
-      }
-    ]
-  ]
+  }
 }

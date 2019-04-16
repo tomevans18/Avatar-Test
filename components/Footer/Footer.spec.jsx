@@ -2,15 +2,13 @@ import React from 'react';
 import { mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 
-import Content from './Content';
+import wrapWithTheme from '../../lib/wrapWithTheme';
 
-describe('Content', () => {
+import Footer from './Footer';
+
+describe('Footer', () => {
   it('should render as expected ', () => {
-    const wrapper = mount(
-      <Content>
-        <div>TEST CONTENT</div>
-      </Content>
-    );
+    const wrapper = wrapWithTheme(mount, <Footer />);
 
     expect(toJson(wrapper)).toMatchSnapshot();
   });

@@ -20,37 +20,45 @@ exports[`Content should render as expected  1`] = `
   }
 }
 
-<Content
-  passedComponentTest="test string"
->
-  <Contentstyle
-    passedComponentTest="test string"
-  >
+<Content>
+  <styled.div>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Contentstyle-sc-9vyqc-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": true,
             "lastClassName": "c0",
             "rules": Array [
-              "flex:1;flex-direction:column;outline:none;",
-              "@media (min-width:",
+              "
+  flex: 1;
+  flex-direction: column;
+  outline: none;
+
+  ",
+              "
+    @media (min-width: ",
               "769",
-              "px){",
+              "px) {
+      ",
               "
     display: flex;
   ",
-              "}",
-              ";",
+              "
+    }
+    ",
+              "
+  ",
+              ";
+",
             ],
           },
-          "displayName": "Contentstyle",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Contentstyle-sc-9vyqc-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -58,7 +66,6 @@ exports[`Content should render as expected  1`] = `
         }
       }
       forwardedRef={null}
-      passedComponentTest="test string"
     >
       <div
         className="c0"
@@ -68,6 +75,6 @@ exports[`Content should render as expected  1`] = `
         </div>
       </div>
     </StyledComponent>
-  </Contentstyle>
+  </styled.div>
 </Content>
 `;

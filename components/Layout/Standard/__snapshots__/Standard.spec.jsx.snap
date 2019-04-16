@@ -170,7 +170,7 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
   <div>
     TEST BANNER
   </div>
-  <Standardstyle__LayoutWrapper
+  <Styled(ContentWrapper)
     flex={true}
   >
     <StyledComponent
@@ -180,29 +180,40 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Standardstyle__LayoutWrapper-ompvno-0",
+            "componentId": "sc-bwzfXH",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "flex-direction:column;margin-bottom:",
+              "
+  flex-direction: column;
+  margin-bottom: ",
               [Function],
-              ";margin-top:",
+              ";
+  margin-top: ",
               [Function],
-              ";",
-              "@media (min-width:",
+              ";
+  ",
+              "
+    @media (min-width: ",
               "769",
-              "px){",
+              "px) {
+      ",
               "
     flex-direction: row;
   ",
-              "}",
-              ";",
+              "
+    }
+    ",
+              "
+  ",
+              ";
+",
             ],
           },
-          "displayName": "Standardstyle__LayoutWrapper",
+          "displayName": "Styled(ContentWrapper)",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Standardstyle__LayoutWrapper-ompvno-0",
+          "styledComponentId": "sc-bwzfXH",
           "target": [Function],
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -215,7 +226,7 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
         className="c0"
         flex={true}
       >
-        <ContentWrapperstyle
+        <styled.div
           className="c0"
           flex={true}
         >
@@ -227,22 +238,34 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "ContentWrapperstyle-s3iiyi-0",
+                  "componentId": "sc-bdVaJa",
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
+                    "
+  ",
                     [Function],
-                    " position:relative;width:100%;max-width:67rem;margin:0 auto;box-sizing:border-box;padding:0 calc(env(safe-area-inset-right) + ",
+                    " position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + ",
                     [Function],
-                    ");@supports (padding:max(0px)){padding:0 max(",
+                    ");
+
+  @supports (padding: max(0px)) {
+    padding: 0 max(",
                     [Function],
-                    ",env(safe-area-inset-left));}",
+                    ", env(safe-area-inset-left));
+  }
+",
                   ],
                 },
-                "displayName": "ContentWrapperstyle",
+                "displayName": "styled.div",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "ContentWrapperstyle-s3iiyi-0",
+                "styledComponentId": "sc-bdVaJa",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -254,7 +277,7 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
             <div
               className="c0 c1"
             >
-              <Standardstyle__Aside
+              <styled.aside
                 left={true}
                 stretch={true}
               >
@@ -264,20 +287,30 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Standardstyle__Aside-ompvno-2",
+                        "componentId": "sc-bxivhb",
                         "isStatic": false,
                         "lastClassName": "c4",
                         "rules": Array [
-                          "display:flex;flex-direction:column;transition:margin 0.2s ease-in-out;padding-top:",
+                          "
+  display: flex;
+  flex-direction: column;
+  transition: margin 0.2s ease-in-out;
+  padding-top: ",
                           [Function],
-                          ";border-top:0.5rem solid ",
+                          ";
+  border-top: 0.5rem solid ",
                           [Function],
-                          ";align-items:",
+                          ";
+  align-items: ",
                           [Function],
-                          ";",
-                          "@media (min-width:",
+                          ";
+
+  ",
+                          "
+    @media (min-width: ",
                           "769",
-                          "px){",
+                          "px) {
+      ",
                           "
     position: sticky;
     top: ",
@@ -294,24 +327,36 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
                           [Function],
                           ";
   ",
-                          "}",
-                          ";",
-                          "@media (min-width:",
+                          "
+    }
+    ",
+                          "
+  ",
+                          ";
+  ",
+                          "
+    @media (min-width: ",
                           "1025",
-                          "px){",
+                          "px) {
+      ",
                           "
     margin: ",
                           [Function],
                           ";
   ",
-                          "}",
-                          ";",
+                          "
+    }
+    ",
+                          "
+  ",
+                          ";
+",
                         ],
                       },
-                      "displayName": "Standardstyle__Aside",
+                      "displayName": "styled.aside",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Standardstyle__Aside-ompvno-2",
+                      "styledComponentId": "sc-bxivhb",
                       "target": "aside",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -330,8 +375,8 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
                     </div>
                   </aside>
                 </StyledComponent>
-              </Standardstyle__Aside>
-              <Standardstyle__Main
+              </styled.aside>
+              <styled.main
                 stretch={true}
               >
                 <StyledComponent
@@ -340,28 +385,40 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Standardstyle__Main-ompvno-1",
+                        "componentId": "sc-htpNat",
                         "isStatic": false,
                         "lastClassName": "c3",
                         "rules": Array [
-                          "display:flex;flex-direction:column;order:-1;",
+                          "
+  display: flex;
+  flex-direction: column;
+  order: -1;
+  ",
                           [Function],
-                          ";",
-                          "@media (min-width:",
+                          ";
+  ",
+                          "
+    @media (min-width: ",
                           "769",
-                          "px){",
+                          "px) {
+      ",
                           "
     flex: 1;
     order: 0;
   ",
-                          "}",
-                          ";",
+                          "
+    }
+    ",
+                          "
+  ",
+                          ";
+",
                         ],
                       },
-                      "displayName": "Standardstyle__Main",
+                      "displayName": "styled.main",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Standardstyle__Main-ompvno-1",
+                      "styledComponentId": "sc-htpNat",
                       "target": "main",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -379,8 +436,8 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
                     </div>
                   </main>
                 </StyledComponent>
-              </Standardstyle__Main>
-              <Standardstyle__Aside
+              </styled.main>
+              <styled.aside
                 addSpacing={2}
                 right={true}
                 stretch={true}
@@ -392,20 +449,30 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Standardstyle__Aside-ompvno-2",
+                        "componentId": "sc-bxivhb",
                         "isStatic": false,
                         "lastClassName": "c4",
                         "rules": Array [
-                          "display:flex;flex-direction:column;transition:margin 0.2s ease-in-out;padding-top:",
+                          "
+  display: flex;
+  flex-direction: column;
+  transition: margin 0.2s ease-in-out;
+  padding-top: ",
                           [Function],
-                          ";border-top:0.5rem solid ",
+                          ";
+  border-top: 0.5rem solid ",
                           [Function],
-                          ";align-items:",
+                          ";
+  align-items: ",
                           [Function],
-                          ";",
-                          "@media (min-width:",
+                          ";
+
+  ",
+                          "
+    @media (min-width: ",
                           "769",
-                          "px){",
+                          "px) {
+      ",
                           "
     position: sticky;
     top: ",
@@ -422,24 +489,36 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
                           [Function],
                           ";
   ",
-                          "}",
-                          ";",
-                          "@media (min-width:",
+                          "
+    }
+    ",
+                          "
+  ",
+                          ";
+  ",
+                          "
+    @media (min-width: ",
                           "1025",
-                          "px){",
+                          "px) {
+      ",
                           "
     margin: ",
                           [Function],
                           ";
   ",
-                          "}",
-                          ";",
+                          "
+    }
+    ",
+                          "
+  ",
+                          ";
+",
                         ],
                       },
-                      "displayName": "Standardstyle__Aside",
+                      "displayName": "styled.aside",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Standardstyle__Aside-ompvno-2",
+                      "styledComponentId": "sc-bxivhb",
                       "target": "aside",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -458,13 +537,13 @@ exports[`Layout - Standard should render as expected with all props 1`] = `
                     </div>
                   </aside>
                 </StyledComponent>
-              </Standardstyle__Aside>
+              </styled.aside>
             </div>
           </StyledComponent>
-        </ContentWrapperstyle>
+        </styled.div>
       </ContentWrapper>
     </StyledComponent>
-  </Standardstyle__LayoutWrapper>
+  </Styled(ContentWrapper)>
 </Sidebar>
 `;
 
@@ -592,7 +671,7 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
   stretchMain={false}
   stretchRight={false}
 >
-  <Standardstyle__LayoutWrapper
+  <Styled(ContentWrapper)
     flex={true}
   >
     <StyledComponent
@@ -602,29 +681,40 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Standardstyle__LayoutWrapper-ompvno-0",
+            "componentId": "sc-bwzfXH",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "flex-direction:column;margin-bottom:",
+              "
+  flex-direction: column;
+  margin-bottom: ",
               [Function],
-              ";margin-top:",
+              ";
+  margin-top: ",
               [Function],
-              ";",
-              "@media (min-width:",
+              ";
+  ",
+              "
+    @media (min-width: ",
               "769",
-              "px){",
+              "px) {
+      ",
               "
     flex-direction: row;
   ",
-              "}",
-              ";",
+              "
+    }
+    ",
+              "
+  ",
+              ";
+",
             ],
           },
-          "displayName": "Standardstyle__LayoutWrapper",
+          "displayName": "Styled(ContentWrapper)",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Standardstyle__LayoutWrapper-ompvno-0",
+          "styledComponentId": "sc-bwzfXH",
           "target": [Function],
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -637,7 +727,7 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
         className="c0"
         flex={true}
       >
-        <ContentWrapperstyle
+        <styled.div
           className="c0"
           flex={true}
         >
@@ -649,22 +739,34 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "ContentWrapperstyle-s3iiyi-0",
+                  "componentId": "sc-bdVaJa",
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
+                    "
+  ",
                     [Function],
-                    " position:relative;width:100%;max-width:67rem;margin:0 auto;box-sizing:border-box;padding:0 calc(env(safe-area-inset-right) + ",
+                    " position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + ",
                     [Function],
-                    ");@supports (padding:max(0px)){padding:0 max(",
+                    ");
+
+  @supports (padding: max(0px)) {
+    padding: 0 max(",
                     [Function],
-                    ",env(safe-area-inset-left));}",
+                    ", env(safe-area-inset-left));
+  }
+",
                   ],
                 },
-                "displayName": "ContentWrapperstyle",
+                "displayName": "styled.div",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "ContentWrapperstyle-s3iiyi-0",
+                "styledComponentId": "sc-bdVaJa",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -676,7 +778,7 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
             <div
               className="c0 c1"
             >
-              <Standardstyle__Aside
+              <styled.aside
                 left={true}
                 stretch={false}
               >
@@ -686,20 +788,30 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Standardstyle__Aside-ompvno-2",
+                        "componentId": "sc-bxivhb",
                         "isStatic": false,
                         "lastClassName": "c2",
                         "rules": Array [
-                          "display:flex;flex-direction:column;transition:margin 0.2s ease-in-out;padding-top:",
+                          "
+  display: flex;
+  flex-direction: column;
+  transition: margin 0.2s ease-in-out;
+  padding-top: ",
                           [Function],
-                          ";border-top:0.5rem solid ",
+                          ";
+  border-top: 0.5rem solid ",
                           [Function],
-                          ";align-items:",
+                          ";
+  align-items: ",
                           [Function],
-                          ";",
-                          "@media (min-width:",
+                          ";
+
+  ",
+                          "
+    @media (min-width: ",
                           "769",
-                          "px){",
+                          "px) {
+      ",
                           "
     position: sticky;
     top: ",
@@ -716,24 +828,36 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
                           [Function],
                           ";
   ",
-                          "}",
-                          ";",
-                          "@media (min-width:",
+                          "
+    }
+    ",
+                          "
+  ",
+                          ";
+  ",
+                          "
+    @media (min-width: ",
                           "1025",
-                          "px){",
+                          "px) {
+      ",
                           "
     margin: ",
                           [Function],
                           ";
   ",
-                          "}",
-                          ";",
+                          "
+    }
+    ",
+                          "
+  ",
+                          ";
+",
                         ],
                       },
-                      "displayName": "Standardstyle__Aside",
+                      "displayName": "styled.aside",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Standardstyle__Aside-ompvno-2",
+                      "styledComponentId": "sc-bxivhb",
                       "target": "aside",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -752,8 +876,8 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
                     </div>
                   </aside>
                 </StyledComponent>
-              </Standardstyle__Aside>
-              <Standardstyle__Main
+              </styled.aside>
+              <styled.main
                 stretch={false}
               >
                 <StyledComponent
@@ -762,28 +886,40 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Standardstyle__Main-ompvno-1",
+                        "componentId": "sc-htpNat",
                         "isStatic": false,
                         "lastClassName": "c3",
                         "rules": Array [
-                          "display:flex;flex-direction:column;order:-1;",
+                          "
+  display: flex;
+  flex-direction: column;
+  order: -1;
+  ",
                           [Function],
-                          ";",
-                          "@media (min-width:",
+                          ";
+  ",
+                          "
+    @media (min-width: ",
                           "769",
-                          "px){",
+                          "px) {
+      ",
                           "
     flex: 1;
     order: 0;
   ",
-                          "}",
-                          ";",
+                          "
+    }
+    ",
+                          "
+  ",
+                          ";
+",
                         ],
                       },
-                      "displayName": "Standardstyle__Main",
+                      "displayName": "styled.main",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Standardstyle__Main-ompvno-1",
+                      "styledComponentId": "sc-htpNat",
                       "target": "main",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -801,13 +937,13 @@ exports[`Layout - Standard should render as expected with left sidebar only 1`] 
                     </div>
                   </main>
                 </StyledComponent>
-              </Standardstyle__Main>
+              </styled.main>
             </div>
           </StyledComponent>
-        </ContentWrapperstyle>
+        </styled.div>
       </ContentWrapper>
     </StyledComponent>
-  </Standardstyle__LayoutWrapper>
+  </Styled(ContentWrapper)>
 </Sidebar>
 `;
 
@@ -888,7 +1024,7 @@ exports[`Layout - Standard should render as expected with only required props 1`
   stretchMain={false}
   stretchRight={false}
 >
-  <Standardstyle__LayoutWrapper
+  <Styled(ContentWrapper)
     flex={true}
   >
     <StyledComponent
@@ -898,29 +1034,40 @@ exports[`Layout - Standard should render as expected with only required props 1`
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "Standardstyle__LayoutWrapper-ompvno-0",
+            "componentId": "sc-bwzfXH",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "flex-direction:column;margin-bottom:",
+              "
+  flex-direction: column;
+  margin-bottom: ",
               [Function],
-              ";margin-top:",
+              ";
+  margin-top: ",
               [Function],
-              ";",
-              "@media (min-width:",
+              ";
+  ",
+              "
+    @media (min-width: ",
               "769",
-              "px){",
+              "px) {
+      ",
               "
     flex-direction: row;
   ",
-              "}",
-              ";",
+              "
+    }
+    ",
+              "
+  ",
+              ";
+",
             ],
           },
-          "displayName": "Standardstyle__LayoutWrapper",
+          "displayName": "Styled(ContentWrapper)",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "Standardstyle__LayoutWrapper-ompvno-0",
+          "styledComponentId": "sc-bwzfXH",
           "target": [Function],
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -933,7 +1080,7 @@ exports[`Layout - Standard should render as expected with only required props 1`
         className="c0"
         flex={true}
       >
-        <ContentWrapperstyle
+        <styled.div
           className="c0"
           flex={true}
         >
@@ -945,22 +1092,34 @@ exports[`Layout - Standard should render as expected with only required props 1`
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "ContentWrapperstyle-s3iiyi-0",
+                  "componentId": "sc-bdVaJa",
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
+                    "
+  ",
                     [Function],
-                    " position:relative;width:100%;max-width:67rem;margin:0 auto;box-sizing:border-box;padding:0 calc(env(safe-area-inset-right) + ",
+                    " position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + ",
                     [Function],
-                    ");@supports (padding:max(0px)){padding:0 max(",
+                    ");
+
+  @supports (padding: max(0px)) {
+    padding: 0 max(",
                     [Function],
-                    ",env(safe-area-inset-left));}",
+                    ", env(safe-area-inset-left));
+  }
+",
                   ],
                 },
-                "displayName": "ContentWrapperstyle",
+                "displayName": "styled.div",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "ContentWrapperstyle-s3iiyi-0",
+                "styledComponentId": "sc-bdVaJa",
                 "target": "div",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -972,7 +1131,7 @@ exports[`Layout - Standard should render as expected with only required props 1`
             <div
               className="c0 c1"
             >
-              <Standardstyle__Main
+              <styled.main
                 stretch={false}
               >
                 <StyledComponent
@@ -981,28 +1140,40 @@ exports[`Layout - Standard should render as expected with only required props 1`
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "Standardstyle__Main-ompvno-1",
+                        "componentId": "sc-htpNat",
                         "isStatic": false,
                         "lastClassName": "c2",
                         "rules": Array [
-                          "display:flex;flex-direction:column;order:-1;",
+                          "
+  display: flex;
+  flex-direction: column;
+  order: -1;
+  ",
                           [Function],
-                          ";",
-                          "@media (min-width:",
+                          ";
+  ",
+                          "
+    @media (min-width: ",
                           "769",
-                          "px){",
+                          "px) {
+      ",
                           "
     flex: 1;
     order: 0;
   ",
-                          "}",
-                          ";",
+                          "
+    }
+    ",
+                          "
+  ",
+                          ";
+",
                         ],
                       },
-                      "displayName": "Standardstyle__Main",
+                      "displayName": "styled.main",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "Standardstyle__Main-ompvno-1",
+                      "styledComponentId": "sc-htpNat",
                       "target": "main",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1020,12 +1191,12 @@ exports[`Layout - Standard should render as expected with only required props 1`
                     </div>
                   </main>
                 </StyledComponent>
-              </Standardstyle__Main>
+              </styled.main>
             </div>
           </StyledComponent>
-        </ContentWrapperstyle>
+        </styled.div>
       </ContentWrapper>
     </StyledComponent>
-  </Standardstyle__LayoutWrapper>
+  </Styled(ContentWrapper)>
 </Sidebar>
 `;

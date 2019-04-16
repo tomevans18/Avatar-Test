@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPage should render 404 as expected 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + 1.25em);
+}
+
+@supports (padding:max(0px)) {
+  .c0 {
+    padding: 0 max(1.25em,env(safe-area-inset-left));
+  }
+}
+
+<Error
+  statusCode={404}
+>
+  <ContentWrapper>
+    <styled.div>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "
+  ",
+                [Function],
+                " position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + ",
+                [Function],
+                ");
+
+  @supports (padding: max(0px)) {
+    padding: 0 max(",
+                [Function],
+                ", env(safe-area-inset-left));
+  }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="c0"
+        >
+          <div>
+            <h2>
+              PAGE NOT FOUND
+            </h2>
+            <p>
+              The page you are looking for might have been removed, or had its name changed. If you typed in the page address, please check that it's spelt correctly.
+            </p>
+            <p>
+              Alternatively, go to the
+               
+              <Component
+                href="/"
+              >
+                <a>
+                  homepage
+                </a>
+              </Component>
+               
+              and follow the links to the information you want.
+            </p>
+          </div>
+        </div>
+      </StyledComponent>
+    </styled.div>
+  </ContentWrapper>
+</Error>
+`;
+
+exports[`ErrorPage should render other error as expected 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + 1.25em);
+}
+
+@supports (padding:max(0px)) {
+  .c0 {
+    padding: 0 max(1.25em,env(safe-area-inset-left));
+  }
+}
+
+<Error
+  statusCode={500}
+>
+  <ContentWrapper>
+    <styled.div>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "
+  ",
+                [Function],
+                " position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + ",
+                [Function],
+                ");
+
+  @supports (padding: max(0px)) {
+    padding: 0 max(",
+                [Function],
+                ", env(safe-area-inset-left));
+  }
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="c0"
+        >
+          <div>
+            <h2>
+              OOPS...
+            </h2>
+            <p>
+              It appears that something went horribly wrong on our end. Please try again later.
+            </p>
+            <p>
+              Alternatively, go to the
+               
+              <Component
+                href="/"
+              >
+                <a>
+                  homepage
+                </a>
+              </Component>
+               
+              and follow the links to the information you want.
+            </p>
+          </div>
+        </div>
+      </StyledComponent>
+    </styled.div>
+  </ContentWrapper>
+</Error>
+`;

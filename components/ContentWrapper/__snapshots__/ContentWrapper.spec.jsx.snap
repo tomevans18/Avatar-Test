@@ -1,19 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Content Wrapper should render as expected 1`] = `
-<ContentWrapperstyle>
+<styled.div>
   <div>
     TEST ContentWrapper
   </div>
-</ContentWrapperstyle>
+</styled.div>
 `;
 
 exports[`Content Wrapper should render as expected with flex layout 1`] = `
-<ContentWrapperstyle
+<styled.div
   flex={true}
 >
   <div>
     TEST ContentWrapper
   </div>
-</ContentWrapperstyle>
+</styled.div>
 `;

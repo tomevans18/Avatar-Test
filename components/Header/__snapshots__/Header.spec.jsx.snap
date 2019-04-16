@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render as expected  1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + 1.25em);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #ffffff;
+  color: #ffffff;
+  border-bottom: 1px solid #ccc;
+}
+
+.c1 {
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+}
+
+.c1:focus,
+.c1:active {
+  left: auto;
+  top: auto;
+  overflow: auto;
+  margin: 1rem 35%;
+  z-index: 999;
+  width: auto;
+  height: auto;
+  border: none;
+  padding: 0in 0in 0in 0in;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c3 {
+  max-width: 200px;
+}
+
+.c4 {
+  display: block;
+  padding: 0.75rem 0 0.375rem;
+  max-width: 70vw;
+  cursor: pointer;
+}
+
+@supports (padding:max(0px)) {
+  .c2 {
+    padding: 0 max(1.25em,env(safe-area-inset-left));
+  }
+}
+
+@media (min-width:769px) {
+  .c0 {
+    border-bottom: none;
+  }
+}
+
+<Header>
+  <styled.header>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: column;
+  background: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  border-bottom: 1px solid ",
+              [Function],
+              ";
+
+  ",
+              "
+    @media (min-width: ",
+              "769",
+              "px) {
+      ",
+              "
+    border-bottom: none;
+  ",
+              "
+    }
+    ",
+              "
+  ",
+              ";
+",
+            ],
+          },
+          "displayName": "styled.header",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "header",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <header
+        className="c0"
+      >
+        <styled.a>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+  &:focus,
+  &:active {
+    left: auto;
+    top: auto;
+    overflow: auto;
+    margin: 1rem 35%;
+    z-index: 999;
+    width: auto;
+    height: auto;
+    border: none;
+    padding: ",
+                    [Function],
+                    ";
+    text-align: center;
+    cursor: pointer;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.a",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-htpNat",
+                "target": "a",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <a
+              className="c1"
+            >
+              Skip to main content
+            </a>
+          </StyledComponent>
+        </styled.a>
+        <ContentWrapper
+          flex={true}
+        >
+          <styled.div
+            flex={true}
+          >
+            <StyledComponent
+              flex={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": false,
+                    "lastClassName": "c2",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      " position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + ",
+                      [Function],
+                      ");
+
+  @supports (padding: max(0px)) {
+    padding: 0 max(",
+                      [Function],
+                      ", env(safe-area-inset-left));
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c2"
+              >
+                <styled.div>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bxivhb",
+                          "isStatic": true,
+                          "lastClassName": "c3",
+                          "rules": Array [
+                            "
+  max-width: 200px;
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bxivhb",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="c3"
+                    >
+                      <Component
+                        href="/"
+                      >
+                        <styled.a
+                          aria-label="Home"
+                        >
+                          <StyledComponent
+                            aria-label="Home"
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-ifAKCX",
+                                  "isStatic": true,
+                                  "lastClassName": "c4",
+                                  "rules": Array [
+                                    "
+  display: block;
+  padding: 0.75rem 0 0.375rem;
+  max-width: 70vw;
+  cursor: pointer;
+",
+                                  ],
+                                },
+                                "displayName": "styled.a",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-ifAKCX",
+                                "target": "a",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <a
+                              aria-label="Home"
+                              className="c4"
+                            >
+                              <img
+                                alt="Logo"
+                                className="site-logo"
+                                src="https://via.placeholder.com/175x90"
+                              />
+                            </a>
+                          </StyledComponent>
+                        </styled.a>
+                      </Component>
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </ContentWrapper>
+      </header>
+    </StyledComponent>
+  </styled.header>
+</Header>
+`;

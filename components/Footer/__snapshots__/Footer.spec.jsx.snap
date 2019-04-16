@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render as expected  1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ccc;
+  padding: 2rem 0 calc(env(safe-area-inset-bottom) + 1rem);
+  margin-top: 1rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+
+.c3 {
+  margin-left: auto;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + 1.25em);
+}
+
+@supports (padding:max(0px)) {
+  .c0 {
+    padding: 2rem 0 max(1rem,env(safe-area-inset-bottom));
+  }
+}
+
+@media (min-width:769px) {
+  .c0 {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 2rem);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width:769px) {
+  .c2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@supports (padding:max(0px)) {
+  .c1 {
+    padding: 0 max(1.25em,env(safe-area-inset-left));
+  }
+}
+
+<Footer>
+  <styled.footer>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  background: ",
+              [Function],
+              ";
+  padding: 2rem 0 calc(env(safe-area-inset-bottom) + 1rem);
+  @supports (padding: max(0px)) {
+    padding: 2rem 0 max(1rem, env(safe-area-inset-bottom));
+  }
+  margin-top: 1rem;
+
+  ",
+              "
+    @media (min-width: ",
+              "769",
+              "px) {
+      ",
+              "
+    padding-bottom: calc(env(safe-area-inset-bottom) + 2rem);
+    display: flex;
+  ",
+              "
+    }
+    ",
+              "
+  ",
+              ";
+",
+            ],
+          },
+          "displayName": "styled.footer",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "footer",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <footer
+        className="c0"
+      >
+        <ContentWrapper>
+          <styled.div>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": false,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      " position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + ",
+                      [Function],
+                      ");
+
+  @supports (padding: max(0px)) {
+    padding: 0 max(",
+                      [Function],
+                      ", env(safe-area-inset-left));
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c1"
+              >
+                <styled.nav>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bwzfXH",
+                          "isStatic": false,
+                          "lastClassName": "c2",
+                          "rules": Array [
+                            "
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: ",
+                            [Function],
+                            ";
+
+  ",
+                            "
+    @media (min-width: ",
+                            "769",
+                            "px) {
+      ",
+                            "
+    flex-direction: row;
+  ",
+                            "
+    }
+    ",
+                            "
+  ",
+                            ";
+",
+                          ],
+                        },
+                        "displayName": "styled.nav",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bwzfXH",
+                        "target": "nav",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <nav
+                      className="c2"
+                    >
+                      <Component
+                        href="/"
+                        passHref={true}
+                      >
+                        <a>
+                          Link
+                        </a>
+                      </Component>
+                      <styled.div>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "sc-htpNat",
+                                "isStatic": true,
+                                "lastClassName": "c3",
+                                "rules": Array [
+                                  "
+  margin-left: auto;
+",
+                                ],
+                              },
+                              "displayName": "styled.div",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "sc-htpNat",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="c3"
+                          >
+                            <small>
+                              © 
+                              2019
+                               Avatar Test
+                            </small>
+                          </div>
+                        </StyledComponent>
+                      </styled.div>
+                    </nav>
+                  </StyledComponent>
+                </styled.nav>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </ContentWrapper>
+      </footer>
+    </StyledComponent>
+  </styled.footer>
+</Footer>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Provider should render as expected 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "breakpoint": Object {
+        "extraLarge": 1224,
+        "large": 1025,
+        "medium": 769,
+        "small": 451,
+      },
+      "color": Object {
+        "black": "#1e1e1e",
+        "grey": "#ccc",
+        "white": "#ffffff",
+      },
+      "component": Object {
+        "spacing": "1.25em",
+      },
+    }
+  }
+>
+  <ResizeAnimationHandler>
+    <MockComponent />
+  </ResizeAnimationHandler>
+</ThemeProvider>
+`;
