@@ -2,15 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 
+import { withUserContext } from '../HOC/User';
+
 import ContentWrapper from '../ContentWrapper';
 
-import StyledHeader, { SkipToMain, LogoWrapper, Logo } from './Header.style';
+import StyledHeader, { SkipToMain, LogoWrapper, Logo, LoginBtn } from './Header.style';
 
 const propTypes = {
   mainId: PropTypes.string.isRequired,
+  isLoggedIn: PropTypes.bool.isRequired,
+  login: PropTypes.func.isRequired,
+  logout: PropTypes.func.isRequired,
 };
 
-const Header = ({ mainId }) => (
+const Header = ({ mainId, isLoggedIn, login, logout }) => (
   <StyledHeader>
     <SkipToMain href={mainId}>Skip to main content</SkipToMain>
     <ContentWrapper flex>
@@ -21,10 +26,18 @@ const Header = ({ mainId }) => (
           </Logo>
         </Link>
       </LogoWrapper>
+      {isLoggedIn && (
+        <Link href="/profile" passHref>
+          <a>Profile</a>
+        </Link>
+      )}
+      <LoginBtn type="button" onClick={() => (isLoggedIn ? logout() : login())}>
+        {isLoggedIn ? 'Logout' : 'Login'}
+      </LoginBtn>
     </ContentWrapper>
   </StyledHeader>
 );
 
 Header.propTypes = propTypes;
 
-export default Header;
+export default withUserContext(Header);

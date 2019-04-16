@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 
 import theme from '../../../styles/theme';
 
+import { UserProvider } from '../User';
 import ResizeAnimationHandler from '../ResizeAnimationHandler';
 
 const propTypes = {
@@ -12,11 +13,15 @@ const propTypes = {
     PropTypes.node,
     PropTypes.string,
   ]).isRequired,
+  user: PropTypes.shape().isRequired,
+  protectedPage: PropTypes.bool.isRequired,
 };
 
-const AppProviders = ({ children }) => (
+const AppProviders = ({ children, user, protectedPage }) => (
   <ThemeProvider theme={theme}>
-    <ResizeAnimationHandler>{children}</ResizeAnimationHandler>
+    <UserProvider user={user} protectedPage={protectedPage}>
+      <ResizeAnimationHandler>{children}</ResizeAnimationHandler>
+    </UserProvider>
   </ThemeProvider>
 );
 

@@ -52,3 +52,5 @@ export const Logo = styled.a`
     max-height: 10vh;
   }
 `;
+
+export const LoginBtn = styled.button``;

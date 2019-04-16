@@ -1,6 +1,8 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 import Head from 'next/head';
+import Router from 'next/router';
+import nextCookie from 'next-cookies';
 import { createGlobalStyle } from 'styled-components';
 
 // import fetchHandler from '../lib/fetchHandler';
@@ -24,36 +26,49 @@ const ResetAndLoadingBarStylesComponent = createGlobalStyle`
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
+    const { token } = nextCookie(ctx);
     let pageProps = {};
 
-    let user = {
-      isLoggedIn: true,
-    };
-    // try {
-    //   user = {
-    //     ...user,
-    //     ...async () => {
-    //       const data = await fetchHandler('https://example.com');
-    //       data.userName = data.id;
-    //       return data;
-    //     },
-    //   };
-    // } catch (err) {
-    //   user = { isLoggedIn: false };
-    // }
+    let user;
 
-    user = { isLoggedIn: true, userName: 'testUser' };
+    try {
+      if (token) {
+        // NOTE: Normally API call to OIDC OP to get user
+        // const data = await fetchHandler(
+        //   'https://example.com/api/user/'
+        // );
+        // const { userName } = data;
+        user = {
+          isLoggedIn: true,
+          userName: 'Tom Evans',
+        };
+      } else {
+        user = { isLoggedIn: false };
+      }
+    } catch (err) {
+      user = { isLoggedIn: false };
+    }
+
+    if (!user.isLoggedIn && Component.protected) {
+      if (ctx.res) {
+        ctx.res.writeHead(302, {
+          Location: '/',
+        });
+        ctx.res.end();
+      } else {
+        Router.push('/');
+      }
+    }
 
     if (Component.getInitialProps) {
       pageProps = { pageProps, ...(await Component.getInitialProps(ctx)) };
     }
 
-    return { ...pageProps, user };
+    return { ...pageProps, user, protectedPage: Component.protected };
   }
 
   render() {
-    const { Component, pageProps } = this.props;
-    const { user } = this.props;
+    const { Component, pageProps, protectedPage, user } = this.props;
 
     return (
       <Container>
@@ -66,7 +81,7 @@ class MyApp extends App {
           ) : (
             <GlobalStylesComponent />
           ))}
-        <AppProviders user={user}>
+        <AppProviders user={user} protectedPage={protectedPage}>
           <AccessibilityWrapper>
             {typeof Component !== 'undefined' &&
               (typeof Component.layout !== 'undefined' ? (
