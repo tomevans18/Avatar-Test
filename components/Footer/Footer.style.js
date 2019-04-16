@@ -20,7 +20,6 @@ export const Nav = styled.nav`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  color: ${p => p.theme.color.white};
 
   ${media.medium`
     flex-direction: row;

@@ -61,7 +61,7 @@ export default css`
   }
 
   h1 {
-    ${responsiveType('6vw', '3em', '4em', '4em')};
+    ${responsiveType('5.5vw', '3em', '3.8em', '3.8em')};
     margin-bottom: 2.42424rem;
     font-size: 2.625em;
   }
@@ -96,7 +96,7 @@ export default css`
 
   p {
     line-height: 1.5;
-    font-size: 1.125em;
+    font-size: 1em;
     a {
       color: ${black};
     }
@@ -171,7 +171,7 @@ export default css`
   ol,
   dl {
     margin-left: 2.5rem;
-    font-size: 1.125em;
+    font-size: 1em;
     p {
       &:last-child {
         margin-bottom: 0;

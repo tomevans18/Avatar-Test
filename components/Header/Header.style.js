@@ -1,18 +1,11 @@
 import styled from 'styled-components';
-import media from '../../styles/lib/mediaQueries';
 
 import { multiply } from '../../styles/lib/calculate';
 
 export default styled.header`
   display: flex;
   flex-direction: column;
-  background: ${p => p.theme.color.white};
-  color: ${p => p.theme.color.white};
   border-bottom: 1px solid ${p => p.theme.color.grey};
-
-  ${media.medium`
-    border-bottom: none;
-  `};
 `;
 
 export const SkipToMain = styled.a`
