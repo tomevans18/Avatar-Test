@@ -34,7 +34,9 @@ For the CI/CD the following steps should be completed:
 - Unit tests - minimum thresholds must be reached
 - Docker image build
   - switch .env with production version
+  - `yarn`
   - `yarn build`
+  - remove node_modules
   - `yarn --prod`
   - `yarn start`
   - build with Node Alpine (with yarn) image

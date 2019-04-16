@@ -208,7 +208,7 @@ export default css`
   }
 
   body {
-    font-family: 'Open Sans', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-display: auto;
     line-height: 1.25;
   }
