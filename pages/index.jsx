@@ -29,6 +29,10 @@ const Home = () => (
           This would normally use an aith application to provide the cookie handling and security
           requirements (e.g. 2nd auth).
         </p>
+        <p>
+          It uses local storage to track logged in/out state. If you open 2 browsers at the same
+          time you will see both update when selecting the login or logout button.
+        </p>
       </Fragment>
     )}
   />

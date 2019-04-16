@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
+import { withRouter } from 'next/router';
 
 import { withUserContext } from '../HOC/User';
 
@@ -14,9 +15,10 @@ const propTypes = {
   isLoggedIn: PropTypes.bool.isRequired,
   login: PropTypes.func.isRequired,
   logout: PropTypes.func.isRequired,
+  router: PropTypes.PropTypes.shape().isRequired,
 };
 
-const Header = ({ mainId, isLoggedIn, login, logout }) => (
+const Header = ({ mainId, isLoggedIn, login, logout, router: { pathname } }) => (
   <StyledHeader>
     <SkipToMain href={mainId}>Skip to main content</SkipToMain>
     <ContentWrapper flex>
@@ -30,7 +32,7 @@ const Header = ({ mainId, isLoggedIn, login, logout }) => (
       {isLoggedIn && (
         <Fragment>
           <Link href="/profile" passHref>
-            <NavLink>Profile</NavLink>
+            <NavLink active={!pathname.indexOf('/profile')}>Profile</NavLink>
           </Link>
           <UserStatus />
         </Fragment>
@@ -44,4 +46,4 @@ const Header = ({ mainId, isLoggedIn, login, logout }) => (
 
 Header.propTypes = propTypes;
 
-export default withUserContext(Header);
+export default withUserContext(withRouter(Header));

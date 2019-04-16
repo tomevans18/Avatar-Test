@@ -55,7 +55,8 @@ export const Logo = styled.a`
 `;
 
 export const NavLink = styled.a`
-  margin: auto 1rem;
+  margin: auto ${p => p.theme.component.spacing};
+  font-weight: ${p => (p.active ? 'bold' : 'normal')};
 `;
 
 export const LoginBtn = styled.button`
