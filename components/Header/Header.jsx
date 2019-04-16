@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 
 import { withUserContext } from '../HOC/User';
 
 import ContentWrapper from '../ContentWrapper';
+import UserStatus from '../UserStatus';
 
-import StyledHeader, { SkipToMain, LogoWrapper, Logo, LoginBtn } from './Header.style';
+import StyledHeader, { SkipToMain, LogoWrapper, Logo, NavLink, LoginBtn } from './Header.style';
 
 const propTypes = {
   mainId: PropTypes.string.isRequired,
@@ -27,9 +28,12 @@ const Header = ({ mainId, isLoggedIn, login, logout }) => (
         </Link>
       </LogoWrapper>
       {isLoggedIn && (
-        <Link href="/profile" passHref>
-          <a>Profile</a>
-        </Link>
+        <Fragment>
+          <Link href="/profile" passHref>
+            <NavLink>Profile</NavLink>
+          </Link>
+          <UserStatus />
+        </Fragment>
       )}
       <LoginBtn type="button" onClick={() => (isLoggedIn ? logout() : login())}>
         {isLoggedIn ? 'Logout' : 'Login'}

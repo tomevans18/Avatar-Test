@@ -52,7 +52,6 @@ class UserProvider extends Component {
   login = async () => {
     // NOTE: There would normally be a GET call here to an OIDC OP & the cookie would be stored on return
     cookie.set('token', 'abc123', { expires: 1 });
-    window.localStorage.removeItem('logout');
     window.localStorage.setItem('login', Date.now());
     this.setState({
       isLoggedIn: true,
@@ -63,7 +62,6 @@ class UserProvider extends Component {
   logout = async () => {
     const { protectedPage } = this.props;
     // NOTE: There would normally be a DELETE call here to an OIDC OP & the token cookie would be removed
-    window.localStorage.removeItem('login');
     window.localStorage.setItem('logout', Date.now());
     cookie.remove('token');
     this.setState({

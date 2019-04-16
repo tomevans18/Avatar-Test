@@ -64,7 +64,7 @@ class MyApp extends App {
       pageProps = { pageProps, ...(await Component.getInitialProps(ctx)) };
     }
 
-    return { ...pageProps, user, protectedPage: Component.protected };
+    return { ...pageProps, user, protectedPage: Component.protected || false };
   }
 
   render() {

@@ -112,10 +112,6 @@ export default css`
 
   a {
     color: ${black};
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   strong,

@@ -39,6 +39,7 @@ export const SkipToMain = styled.a`
 
 export const LogoWrapper = styled.div`
   max-width: 200px;
+  margin-right: auto;
 `;
 
 export const Logo = styled.a`
@@ -53,4 +54,13 @@ export const Logo = styled.a`
   }
 `;
 
-export const LoginBtn = styled.button``;
+export const NavLink = styled.a`
+  margin: auto 1rem;
+`;
+
+export const LoginBtn = styled.button`
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+`;
