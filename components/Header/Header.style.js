@@ -43,7 +43,12 @@ export const LogoWrapper = styled.div`
 
 export const Logo = styled.a`
   display: block;
-  padding: 0.75rem 0 0.375rem;
+  padding: 0.75rem 0 0.5rem;
   max-width: 70vw;
   cursor: pointer;
+
+  img {
+    min-height: 65px;
+    max-height: 10vh;
+  }
 `;
