@@ -63,35 +63,29 @@ export default css`
   h1 {
     ${responsiveType('5.5vw', '3em', '3.8em', '3.8em')};
     margin-bottom: 2.42424rem;
-    font-size: 2.625em;
   }
 
   h2 {
     ${responsiveType('5vw', '2.6em', '3.33333em', '3.33333em')};
     margin-bottom: 2.0202rem;
-    font-size: 1.875em;
   }
 
   h3 {
     ${responsiveType('4vw', '2.2em', '2.66667em', '2.66667em')};
     margin-bottom: 1.61616rem;
-    font-size: 1.5em;
   }
 
   h4 {
     ${responsiveType('2.7vw', '1.5em', '1.8em', '1.8em')};
     margin-bottom: 1.21212rem;
-    font-size: 1.3125em;
   }
 
   h5 {
     ${responsiveType('2.25vw', '1.3em', '1.5em', '1.5em')};
-    margin-bottom: 0.80808rem;
   }
 
   h6 {
     ${responsiveType('2.05vw', '1.1em', '1.3em', '1.3em')};
-    margin-bottom: 0.60606rem;
   }
 
   p {
