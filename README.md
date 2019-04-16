@@ -33,6 +33,11 @@ For the CI/CD the following steps should be completed:
 - Sonar - code quality tool
 - Unit tests - minimum thresholds must be reached
 - Docker image build
+  - switch .env with production version
+  - `yarn build`
+  - `yarn --prod`
+  - `yarn start`
+  - build with Node Alpine (with yarn) image
 - Temporary instance built - this should provide a URI to run BDDs against
 - BDDs
 - Accessibility and UX testing
