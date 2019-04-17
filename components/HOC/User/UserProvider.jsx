@@ -32,16 +32,16 @@ class UserProvider extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener('storage', this.syncLogout);
+    window.addEventListener('storage', this.syncSession);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('storage', this.syncLogout);
+    window.removeEventListener('storage', this.syncSession);
     window.localStorage.removeItem('login');
     window.localStorage.removeItem('logout');
   }
 
-  syncLogout = event => {
+  syncSession = event => {
     if (event.key === 'login') {
       this.login();
     }

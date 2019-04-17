@@ -35,6 +35,8 @@ describe('App', () => {
     });
 
     mockTokenResponse.mockReturnValue({});
+
+    fetch.resetMocks();
   });
 
   afterEach(() => {
