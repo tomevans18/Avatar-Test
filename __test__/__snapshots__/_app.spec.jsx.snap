@@ -1,5 +1,766 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`App should complete redirect client side if no token is passed and page is protected 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 *:focus {
+  outline: 0;
+}
+
+<MyApp
+  pageProps={Object {}}
+  protectedPage={true}
+  user={
+    Object {
+      "isLoggedIn": false,
+    }
+  }
+>
+  <Container>
+    <Head>
+      <SideEffect
+        handleStateChange={null}
+        isAmp={false}
+        reduceComponentsToState={[Function]}
+      />
+    </Head>
+    <AppProviders
+      protectedPage={true}
+      user={
+        Object {
+          "isLoggedIn": false,
+        }
+      }
+    >
+      <ThemeProvider
+        theme={
+          Object {
+            "breakpoint": Object {
+              "extraLarge": 1224,
+              "large": 1025,
+              "medium": 769,
+              "small": 451,
+            },
+            "color": Object {
+              "available": "rgb(46, 204, 113)",
+              "background": "rgb(53, 59, 72)",
+              "black": "#1e1e1e",
+              "blue": "#2d8bd8",
+              "grey": "rgb(220, 221, 225)",
+              "grey_light": "#eaeaea",
+              "notReady": "rgb(251, 197, 49)",
+              "unavailable": "rgb(194, 54, 22)",
+              "white": "#ffffff",
+            },
+            "component": Object {
+              "spacing": "1.25em",
+            },
+          }
+        }
+      >
+        <UserProvider
+          protectedPage={true}
+          user={
+            Object {
+              "isLoggedIn": false,
+            }
+          }
+        >
+          <ResizeAnimationHandler>
+            <styled.div
+              resizing={false}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c0",
+                      "rules": Array [
+                        "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                resizing={false}
+              >
+                <div
+                  className="c0"
+                >
+                  <Index>
+                    <styled.div
+                      tabbing={false}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": false,
+                              "lastClassName": "c1",
+                              "rules": Array [
+                                "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  *:focus {
+    outline: ",
+                                [Function],
+                                ";
+  }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        tabbing={false}
+                      >
+                        <div
+                          className="c1"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </Index>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </ResizeAnimationHandler>
+        </UserProvider>
+      </ThemeProvider>
+    </AppProviders>
+  </Container>
+</MyApp>
+`;
+
+exports[`App should complete redirect server side if no token is passed and page is protected 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 *:focus {
+  outline: 0;
+}
+
+<MyApp
+  pageProps={Object {}}
+  protectedPage={true}
+  user={
+    Object {
+      "isLoggedIn": false,
+    }
+  }
+>
+  <Container>
+    <Head>
+      <SideEffect
+        handleStateChange={null}
+        isAmp={false}
+        reduceComponentsToState={[Function]}
+      />
+    </Head>
+    <AppProviders
+      protectedPage={true}
+      user={
+        Object {
+          "isLoggedIn": false,
+        }
+      }
+    >
+      <ThemeProvider
+        theme={
+          Object {
+            "breakpoint": Object {
+              "extraLarge": 1224,
+              "large": 1025,
+              "medium": 769,
+              "small": 451,
+            },
+            "color": Object {
+              "available": "rgb(46, 204, 113)",
+              "background": "rgb(53, 59, 72)",
+              "black": "#1e1e1e",
+              "blue": "#2d8bd8",
+              "grey": "rgb(220, 221, 225)",
+              "grey_light": "#eaeaea",
+              "notReady": "rgb(251, 197, 49)",
+              "unavailable": "rgb(194, 54, 22)",
+              "white": "#ffffff",
+            },
+            "component": Object {
+              "spacing": "1.25em",
+            },
+          }
+        }
+      >
+        <UserProvider
+          protectedPage={true}
+          user={
+            Object {
+              "isLoggedIn": false,
+            }
+          }
+        >
+          <ResizeAnimationHandler>
+            <styled.div
+              resizing={false}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c0",
+                      "rules": Array [
+                        "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                resizing={false}
+              >
+                <div
+                  className="c0"
+                >
+                  <Index>
+                    <styled.div
+                      tabbing={false}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": false,
+                              "lastClassName": "c1",
+                              "rules": Array [
+                                "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  *:focus {
+    outline: ",
+                                [Function],
+                                ";
+  }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        tabbing={false}
+                      >
+                        <div
+                          className="c1"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </Index>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </ResizeAnimationHandler>
+        </UserProvider>
+      </ThemeProvider>
+    </AppProviders>
+  </Container>
+</MyApp>
+`;
+
+exports[`App should complete user data fetch if a token is passed 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 *:focus {
+  outline: 0;
+}
+
+<MyApp
+  pageProps={Object {}}
+  protectedPage={false}
+  user={
+    Object {
+      "avatar": "https://pbs.twimg.com/profile_images/1066699912425934848/ak1-6yzy_400x400.jpg",
+      "isLoggedIn": true,
+      "status": "Available",
+      "userName": "Tom Evans",
+    }
+  }
+>
+  <Container>
+    <Head>
+      <SideEffect
+        handleStateChange={null}
+        isAmp={false}
+        reduceComponentsToState={[Function]}
+      />
+    </Head>
+    <AppProviders
+      protectedPage={false}
+      user={
+        Object {
+          "avatar": "https://pbs.twimg.com/profile_images/1066699912425934848/ak1-6yzy_400x400.jpg",
+          "isLoggedIn": true,
+          "status": "Available",
+          "userName": "Tom Evans",
+        }
+      }
+    >
+      <ThemeProvider
+        theme={
+          Object {
+            "breakpoint": Object {
+              "extraLarge": 1224,
+              "large": 1025,
+              "medium": 769,
+              "small": 451,
+            },
+            "color": Object {
+              "available": "rgb(46, 204, 113)",
+              "background": "rgb(53, 59, 72)",
+              "black": "#1e1e1e",
+              "blue": "#2d8bd8",
+              "grey": "rgb(220, 221, 225)",
+              "grey_light": "#eaeaea",
+              "notReady": "rgb(251, 197, 49)",
+              "unavailable": "rgb(194, 54, 22)",
+              "white": "#ffffff",
+            },
+            "component": Object {
+              "spacing": "1.25em",
+            },
+          }
+        }
+      >
+        <UserProvider
+          protectedPage={false}
+          user={
+            Object {
+              "avatar": "https://pbs.twimg.com/profile_images/1066699912425934848/ak1-6yzy_400x400.jpg",
+              "isLoggedIn": true,
+              "status": "Available",
+              "userName": "Tom Evans",
+            }
+          }
+        >
+          <ResizeAnimationHandler>
+            <styled.div
+              resizing={false}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c0",
+                      "rules": Array [
+                        "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                resizing={false}
+              >
+                <div
+                  className="c0"
+                >
+                  <Index>
+                    <styled.div
+                      tabbing={false}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": false,
+                              "lastClassName": "c1",
+                              "rules": Array [
+                                "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  *:focus {
+    outline: ",
+                                [Function],
+                                ";
+  }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        tabbing={false}
+                      >
+                        <div
+                          className="c1"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </Index>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </ResizeAnimationHandler>
+        </UserProvider>
+      </ThemeProvider>
+    </AppProviders>
+  </Container>
+</MyApp>
+`;
+
+exports[`App should handle user data fetch fail if a token is passed 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 *:focus {
+  outline: 0;
+}
+
+<MyApp
+  pageProps={Object {}}
+  protectedPage={false}
+  user={
+    Object {
+      "isLoggedIn": false,
+    }
+  }
+>
+  <Container>
+    <Head>
+      <SideEffect
+        handleStateChange={null}
+        isAmp={false}
+        reduceComponentsToState={[Function]}
+      />
+    </Head>
+    <AppProviders
+      protectedPage={false}
+      user={
+        Object {
+          "isLoggedIn": false,
+        }
+      }
+    >
+      <ThemeProvider
+        theme={
+          Object {
+            "breakpoint": Object {
+              "extraLarge": 1224,
+              "large": 1025,
+              "medium": 769,
+              "small": 451,
+            },
+            "color": Object {
+              "available": "rgb(46, 204, 113)",
+              "background": "rgb(53, 59, 72)",
+              "black": "#1e1e1e",
+              "blue": "#2d8bd8",
+              "grey": "rgb(220, 221, 225)",
+              "grey_light": "#eaeaea",
+              "notReady": "rgb(251, 197, 49)",
+              "unavailable": "rgb(194, 54, 22)",
+              "white": "#ffffff",
+            },
+            "component": Object {
+              "spacing": "1.25em",
+            },
+          }
+        }
+      >
+        <UserProvider
+          protectedPage={false}
+          user={
+            Object {
+              "isLoggedIn": false,
+            }
+          }
+        >
+          <ResizeAnimationHandler>
+            <styled.div
+              resizing={false}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c0",
+                      "rules": Array [
+                        "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                resizing={false}
+              >
+                <div
+                  className="c0"
+                >
+                  <Index>
+                    <styled.div
+                      tabbing={false}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": false,
+                              "lastClassName": "c1",
+                              "rules": Array [
+                                "
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  *:focus {
+    outline: ",
+                                [Function],
+                                ";
+  }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        tabbing={false}
+                      >
+                        <div
+                          className="c1"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </Index>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </ResizeAnimationHandler>
+        </UserProvider>
+      </ThemeProvider>
+    </AppProviders>
+  </Container>
+</MyApp>
+`;
+
 exports[`App should pass down to component getInitialProps 1`] = `
 .c0 {
   display: -webkit-box;
@@ -33,10 +794,10 @@ exports[`App should pass down to component getInitialProps 1`] = `
 
 <MyApp
   pageProps={Object {}}
+  protectedPage={false}
   user={
     Object {
-      "isLoggedIn": true,
-      "userName": "testUser",
+      "isLoggedIn": false,
     }
   }
 >
@@ -49,10 +810,10 @@ exports[`App should pass down to component getInitialProps 1`] = `
       />
     </Head>
     <AppProviders
+      protectedPage={false}
       user={
         Object {
-          "isLoggedIn": true,
-          "userName": "testUser",
+          "isLoggedIn": false,
         }
       }
     >
@@ -66,8 +827,14 @@ exports[`App should pass down to component getInitialProps 1`] = `
               "small": 451,
             },
             "color": Object {
+              "available": "rgb(46, 204, 113)",
+              "background": "rgb(53, 59, 72)",
               "black": "#1e1e1e",
-              "grey": "#ccc",
+              "blue": "#2d8bd8",
+              "grey": "rgb(220, 221, 225)",
+              "grey_light": "#eaeaea",
+              "notReady": "rgb(251, 197, 49)",
+              "unavailable": "rgb(194, 54, 22)",
               "white": "#ffffff",
             },
             "component": Object {
@@ -76,97 +843,106 @@ exports[`App should pass down to component getInitialProps 1`] = `
           }
         }
       >
-        <ResizeAnimationHandler>
-          <styled.div
-            resizing={false}
-          >
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
-                    "isStatic": false,
-                    "lastClassName": "c0",
-                    "rules": Array [
-                      "
+        <UserProvider
+          protectedPage={false}
+          user={
+            Object {
+              "isLoggedIn": false,
+            }
+          }
+        >
+          <ResizeAnimationHandler>
+            <styled.div
+              resizing={false}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c0",
+                      "rules": Array [
+                        "
   display: flex;
   flex-direction: column;
   flex: 1;
 
   ",
-                      [Function],
-                      ";
+                        [Function],
+                        ";
 ",
-                    ],
-                  },
-                  "displayName": "styled.div",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
                 }
-              }
-              forwardedRef={null}
-              resizing={false}
-            >
-              <div
-                className="c0"
+                forwardedRef={null}
+                resizing={false}
               >
-                <Index>
-                  <styled.div
-                    tabbing={false}
-                  >
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "sc-bwzfXH",
-                            "isStatic": false,
-                            "lastClassName": "c1",
-                            "rules": Array [
-                              "
+                <div
+                  className="c0"
+                >
+                  <Index>
+                    <styled.div
+                      tabbing={false}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": false,
+                              "lastClassName": "c1",
+                              "rules": Array [
+                                "
   display: flex;
   flex-direction: column;
   flex: 1;
 
   *:focus {
     outline: ",
-                              [Function],
-                              ";
+                                [Function],
+                                ";
   }
 ",
-                            ],
-                          },
-                          "displayName": "styled.div",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "sc-bwzfXH",
-                          "target": "div",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
                         }
-                      }
-                      forwardedRef={null}
-                      tabbing={false}
-                    >
-                      <div
-                        className="c1"
-                      />
-                    </StyledComponent>
-                  </styled.div>
-                </Index>
-              </div>
-            </StyledComponent>
-          </styled.div>
-        </ResizeAnimationHandler>
+                        forwardedRef={null}
+                        tabbing={false}
+                      >
+                        <div
+                          className="c1"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </Index>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </ResizeAnimationHandler>
+        </UserProvider>
       </ThemeProvider>
     </AppProviders>
   </Container>
@@ -472,10 +1248,10 @@ exports[`App should render as expected with passed component 1`] = `
 }
 
 <MyApp
+  protectedPage={false}
   user={
     Object {
-      "isLoggedIn": true,
-      "userName": "testUser",
+      "isLoggedIn": false,
     }
   }
 >
@@ -488,10 +1264,10 @@ exports[`App should render as expected with passed component 1`] = `
       />
     </Head>
     <AppProviders
+      protectedPage={false}
       user={
         Object {
-          "isLoggedIn": true,
-          "userName": "testUser",
+          "isLoggedIn": false,
         }
       }
     >
@@ -505,8 +1281,14 @@ exports[`App should render as expected with passed component 1`] = `
               "small": 451,
             },
             "color": Object {
+              "available": "rgb(46, 204, 113)",
+              "background": "rgb(53, 59, 72)",
               "black": "#1e1e1e",
-              "grey": "#ccc",
+              "blue": "#2d8bd8",
+              "grey": "rgb(220, 221, 225)",
+              "grey_light": "#eaeaea",
+              "notReady": "rgb(251, 197, 49)",
+              "unavailable": "rgb(194, 54, 22)",
               "white": "#ffffff",
             },
             "component": Object {
@@ -515,97 +1297,106 @@ exports[`App should render as expected with passed component 1`] = `
           }
         }
       >
-        <ResizeAnimationHandler>
-          <styled.div
-            resizing={false}
-          >
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
-                    "isStatic": false,
-                    "lastClassName": "c0",
-                    "rules": Array [
-                      "
+        <UserProvider
+          protectedPage={false}
+          user={
+            Object {
+              "isLoggedIn": false,
+            }
+          }
+        >
+          <ResizeAnimationHandler>
+            <styled.div
+              resizing={false}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c0",
+                      "rules": Array [
+                        "
   display: flex;
   flex-direction: column;
   flex: 1;
 
   ",
-                      [Function],
-                      ";
+                        [Function],
+                        ";
 ",
-                    ],
-                  },
-                  "displayName": "styled.div",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
                 }
-              }
-              forwardedRef={null}
-              resizing={false}
-            >
-              <div
-                className="c0"
+                forwardedRef={null}
+                resizing={false}
               >
-                <Index>
-                  <styled.div
-                    tabbing={false}
-                  >
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "sc-bwzfXH",
-                            "isStatic": false,
-                            "lastClassName": "c1",
-                            "rules": Array [
-                              "
+                <div
+                  className="c0"
+                >
+                  <Index>
+                    <styled.div
+                      tabbing={false}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": false,
+                              "lastClassName": "c1",
+                              "rules": Array [
+                                "
   display: flex;
   flex-direction: column;
   flex: 1;
 
   *:focus {
     outline: ",
-                              [Function],
-                              ";
+                                [Function],
+                                ";
   }
 ",
-                            ],
-                          },
-                          "displayName": "styled.div",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "sc-bwzfXH",
-                          "target": "div",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
                         }
-                      }
-                      forwardedRef={null}
-                      tabbing={false}
-                    >
-                      <div
-                        className="c1"
-                      />
-                    </StyledComponent>
-                  </styled.div>
-                </Index>
-              </div>
-            </StyledComponent>
-          </styled.div>
-        </ResizeAnimationHandler>
+                        forwardedRef={null}
+                        tabbing={false}
+                      >
+                        <div
+                          className="c1"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </Index>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </ResizeAnimationHandler>
+        </UserProvider>
       </ThemeProvider>
     </AppProviders>
   </Container>
