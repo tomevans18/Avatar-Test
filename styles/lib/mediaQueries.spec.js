@@ -18,11 +18,12 @@ describe('Media Queries', () => {
         display: block;
       `
         .join('')
-        .replace(/\s\s/g, '');
+        .replace(/\s\s/g, '')
+        .trim();
 
       expect(output).toEqual(
-        `@media (min-width:${theme.breakpoint[breakpoint]}px){ display: block; }${
-          theme.breakpoint[breakpoint] <= theme.printView ? '@media print{ display: block; }' : ''
+        `@media (min-width: ${theme.breakpoint[breakpoint]}px) {display: block;}${
+          theme.breakpoint[breakpoint] <= theme.printView ? '@media print {display: block;}' : ''
         }`
       );
     })
@@ -33,7 +34,8 @@ describe('Media Queries', () => {
                   display: block;
                   `
       .join('')
-      .replace(/\s\s/g, '');
-    expect(output).toEqual('@media print{ display: block; }');
+      .replace(/\s\s/g, '')
+      .trim();
+    expect(output).toEqual('@media print {display: block;}');
   });
 });

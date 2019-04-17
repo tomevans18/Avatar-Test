@@ -6,7 +6,7 @@ exports[`Footer should render as expected  1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background: #ccc;
+  background: rgb(220,221,225);
   padding: 2rem 0 calc(env(safe-area-inset-bottom) + 1rem);
   margin-top: 1rem;
 }
@@ -22,7 +22,6 @@ exports[`Footer should render as expected  1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  color: #ffffff;
 }
 
 .c3 {
@@ -180,16 +179,13 @@ exports[`Footer should render as expected  1`] = `
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
                           "componentId": "sc-bwzfXH",
-                          "isStatic": false,
+                          "isStatic": true,
                           "lastClassName": "c2",
                           "rules": Array [
                             "
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  color: ",
-                            [Function],
-                            ";
 
   ",
                             "

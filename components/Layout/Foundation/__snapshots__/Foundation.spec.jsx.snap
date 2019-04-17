@@ -2,7 +2,7 @@
 
 exports[`Layout - Foundation should render as expected 1`] = `
 <Fragment>
-  <Header
+  <WrapperComponent
     mainId="#mainContent"
   />
   <Content

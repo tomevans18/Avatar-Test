@@ -14,6 +14,9 @@ To run the project you will need to have the following installed:
 - NPM - v6
 - Yarn (can use npm too but untested) - latest
 
+You must run the mock API server throughout all usage.
+To do this, open another terminal window and run `yarn mock:api`.
+
 ### Installing
 
 You must first install all dependencies (including development dependencies to build and run in dev mode), to do this please run `yarn`.

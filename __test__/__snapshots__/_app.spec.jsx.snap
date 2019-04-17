@@ -260,8 +260,14 @@ exports[`App should render as expected with no passed component 1`] = `
               "small": 451,
             },
             "color": Object {
+              "available": "rgb(46, 204, 113)",
+              "background": "rgb(53, 59, 72)",
               "black": "#1e1e1e",
-              "grey": "#ccc",
+              "blue": "#2d8bd8",
+              "grey": "rgb(220, 221, 225)",
+              "grey_light": "#eaeaea",
+              "notReady": "rgb(251, 197, 49)",
+              "unavailable": "rgb(194, 54, 22)",
               "white": "#ffffff",
             },
             "component": Object {
@@ -270,97 +276,99 @@ exports[`App should render as expected with no passed component 1`] = `
           }
         }
       >
-        <ResizeAnimationHandler>
-          <styled.div
-            resizing={false}
-          >
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "sc-bdVaJa",
-                    "isStatic": false,
-                    "lastClassName": "c0",
-                    "rules": Array [
-                      "
+        <UserProvider>
+          <ResizeAnimationHandler>
+            <styled.div
+              resizing={false}
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c0",
+                      "rules": Array [
+                        "
   display: flex;
   flex-direction: column;
   flex: 1;
 
   ",
-                      [Function],
-                      ";
+                        [Function],
+                        ";
 ",
-                    ],
-                  },
-                  "displayName": "styled.div",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "sc-bdVaJa",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
                 }
-              }
-              forwardedRef={null}
-              resizing={false}
-            >
-              <div
-                className="c0"
+                forwardedRef={null}
+                resizing={false}
               >
-                <Index>
-                  <styled.div
-                    tabbing={false}
-                  >
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "sc-bwzfXH",
-                            "isStatic": false,
-                            "lastClassName": "c1",
-                            "rules": Array [
-                              "
+                <div
+                  className="c0"
+                >
+                  <Index>
+                    <styled.div
+                      tabbing={false}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": false,
+                              "lastClassName": "c1",
+                              "rules": Array [
+                                "
   display: flex;
   flex-direction: column;
   flex: 1;
 
   *:focus {
     outline: ",
-                              [Function],
-                              ";
+                                [Function],
+                                ";
   }
 ",
-                            ],
-                          },
-                          "displayName": "styled.div",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "sc-bwzfXH",
-                          "target": "div",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
                         }
-                      }
-                      forwardedRef={null}
-                      tabbing={false}
-                    >
-                      <div
-                        className="c1"
-                      />
-                    </StyledComponent>
-                  </styled.div>
-                </Index>
-              </div>
-            </StyledComponent>
-          </styled.div>
-        </ResizeAnimationHandler>
+                        forwardedRef={null}
+                        tabbing={false}
+                      >
+                        <div
+                          className="c1"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </Index>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </ResizeAnimationHandler>
+        </UserProvider>
       </ThemeProvider>
     </AppProviders>
   </Container>

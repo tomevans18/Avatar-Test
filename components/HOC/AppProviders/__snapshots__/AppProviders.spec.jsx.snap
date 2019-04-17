@@ -11,8 +11,14 @@ exports[`App Provider should render as expected 1`] = `
         "small": 451,
       },
       "color": Object {
+        "available": "rgb(46, 204, 113)",
+        "background": "rgb(53, 59, 72)",
         "black": "#1e1e1e",
-        "grey": "#ccc",
+        "blue": "#2d8bd8",
+        "grey": "rgb(220, 221, 225)",
+        "grey_light": "#eaeaea",
+        "notReady": "rgb(251, 197, 49)",
+        "unavailable": "rgb(194, 54, 22)",
         "white": "#ffffff",
       },
       "component": Object {
@@ -21,8 +27,10 @@ exports[`App Provider should render as expected 1`] = `
     }
   }
 >
-  <ResizeAnimationHandler>
-    <MockComponent />
-  </ResizeAnimationHandler>
+  <UserProvider>
+    <ResizeAnimationHandler>
+      <MockComponent />
+    </ResizeAnimationHandler>
+  </UserProvider>
 </ThemeProvider>
 `;
