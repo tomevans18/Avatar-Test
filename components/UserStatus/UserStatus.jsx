@@ -38,7 +38,10 @@ class UserStatus extends Component {
   };
 
   closeDropdown = () => {
-    this.setState({ isOpen: false }, this.handleShowDropdownOut);
+    this.setState(
+      { isOpen: false, loadingStatus: null, percentage: 100 },
+      this.handleShowDropdownOut
+    );
     document.removeEventListener('mousedown', this.handleClickOutside, false);
   };
 
@@ -70,6 +73,15 @@ class UserStatus extends Component {
   };
 
   updateStatus = async newStatus => {
+    const { loadingStatus } = this.state;
+    if (loadingStatus === newStatus) return;
+
+    if (this.completeUpdate) clearTimeout(this.completeUpdate);
+
+    if (this.abortController && loadingStatus) this.abortController.abort();
+    this.abortController = new AbortController();
+    const { signal } = this.abortController;
+
     this.setState(
       {
         loadingStatus: newStatus,
@@ -78,23 +90,39 @@ class UserStatus extends Component {
       () => {
         this.percentageIncrease();
 
-        // fetch
-
-        setTimeout(() => {
-          const { statusOptions } = this.state;
-          const avalibleStatus = [...statusOptions];
-          const index = avalibleStatus.indexOf(newStatus);
-          if (index > -1) {
-            avalibleStatus.splice(index, 1);
-          }
-          this.setState(
-            {
-              avalibleStatus,
-              currentStatus: newStatus,
-            },
-            this.closeDropdown
-          );
-        }, 3000);
+        fetch('http://localhost:3004/status', {
+          method: 'post',
+          signal,
+        })
+          .then(() => {
+            const { statusOptions } = this.state;
+            const avalibleStatus = [...statusOptions];
+            const index = avalibleStatus.indexOf(newStatus);
+            if (index > -1) {
+              avalibleStatus.splice(index, 1);
+            }
+            this.setState(
+              {
+                percentage: 99,
+              },
+              () => {
+                this.completeUpdate = setTimeout(() => {
+                  this.setState({
+                    avalibleStatus,
+                    currentStatus: newStatus,
+                  });
+                  this.closeDropdown();
+                }, 500);
+              }
+            );
+          })
+          .catch(err => {
+            // eslint-disable-next-line no-debugger
+            if (err.name !== 'AbortError') {
+              console.error(` Err: ${err}`);
+              alert('Error - Unable to update status.');
+            }
+          });
       }
     );
   };
@@ -121,6 +149,7 @@ class UserStatus extends Component {
               {avalibleStatus.map(status => (
                 <Avatar
                   key={status}
+                  disabled={!isOpen}
                   hoverScale
                   status={status}
                   percentage={status === loadingStatus ? percentage : 0}

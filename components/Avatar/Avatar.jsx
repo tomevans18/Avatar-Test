@@ -7,6 +7,7 @@ import StyledAvatar, { AvatarWrapper, Img, LoadingState } from './Avatar.style';
 const propTypes = {
   img: PropTypes.string.isRequired,
   status: PropTypes.string.isRequired,
+  disabled: PropTypes.bool,
   hoverScale: PropTypes.bool,
   percentage: PropTypes.number,
   onClick: PropTypes.func,
@@ -14,18 +15,20 @@ const propTypes = {
 };
 
 const defaultProps = {
+  disabled: false,
   hoverScale: false,
   percentage: 0,
   onClick: () => {},
   className: null,
 };
 
-function Avatar({ img, hoverScale, status, percentage, onClick, className }) {
+function Avatar({ img, disabled, hoverScale, status, percentage, onClick, className }) {
   return (
     <AvatarWrapper hoverScale={hoverScale}>
       <LoadingState background="grey" foreground="blue" percentage={percentage} />
       <StyledAvatar
         type="button"
+        disabled={disabled}
         percentage={percentage}
         status={camelcase(status)}
         onClick={onClick}

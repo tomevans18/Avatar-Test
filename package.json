@@ -13,7 +13,7 @@
     "test:watch": "NODE_ENV=test jest --watchAll",
     "build": "next build",
     "start": "NODE_ENV=production node server/app.js",
-    "mock:api": "json-server -w ./mock/db.json -m ./mock/delay.js -p 3004"
+    "mock:api": "json-server -w ./mock/db.json -d 1000 -p 3004"
   },
   "dependencies": {
     "@commercetools/enzyme-extensions": "^4.0.0",

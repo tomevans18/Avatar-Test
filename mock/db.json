@@ -3,7 +3,5 @@
     "userName": "json-server",
     "avatar": "https://pbs.twimg.com/profile_images/1066699912425934848/ak1-6yzy_400x400.jpg"
   },
-  "status": {
-    "ok": true
-  }
+  "status": {}
 }
