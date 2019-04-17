@@ -1570,7 +1570,7 @@ exports[`Header should render as expected when logged out 1`] = `
 </Component>
 `;
 
-exports[`Header should run logout function when button is clicked and user is logged in 1`] = `
+exports[`Header should render with profile link in bold 1`] = `
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1735,7 +1735,7 @@ exports[`Header should run logout function when button is clicked and user is lo
 
 .c5 {
   margin: auto 1.25em;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .c16 {
@@ -1757,20 +1757,8 @@ exports[`Header should run logout function when button is clicked and user is lo
   <Component
     avatar="http://example.com"
     isLoggedIn={true}
-    login={[MockFunction]}
-    logout={
-      [MockFunction] {
-        "calls": Array [
-          Array [],
-        ],
-        "results": Array [
-          Object {
-            "type": "return",
-            "value": undefined,
-          },
-        ],
-      }
-    }
+    login={[Function]}
+    logout={[Function]}
     mainId="#abc123"
     status="Available"
     userName="Tom Evans"
@@ -1778,24 +1766,12 @@ exports[`Header should run logout function when button is clicked and user is lo
     <Header
       avatar="http://example.com"
       isLoggedIn={true}
-      login={[MockFunction]}
-      logout={
-        [MockFunction] {
-          "calls": Array [
-            Array [],
-          ],
-          "results": Array [
-            Object {
-              "type": "return",
-              "value": undefined,
-            },
-          ],
-        }
-      }
+      login={[Function]}
+      logout={[Function]}
       mainId="#abc123"
       router={
         Object {
-          "pathname": "/",
+          "pathname": "/profile",
         }
       }
       status="Available"
@@ -2044,10 +2020,10 @@ exports[`Header should run logout function when button is clicked and user is lo
                       passHref={true}
                     >
                       <styled.a
-                        active={false}
+                        active={true}
                       >
                         <StyledComponent
-                          active={false}
+                          active={true}
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
@@ -2091,20 +2067,8 @@ exports[`Header should run logout function when button is clicked and user is lo
                       <UserStatus
                         avatar="http://example.com"
                         isLoggedIn={true}
-                        login={[MockFunction]}
-                        logout={
-                          [MockFunction] {
-                            "calls": Array [
-                              Array [],
-                            ],
-                            "results": Array [
-                              Object {
-                                "type": "return",
-                                "value": undefined,
-                              },
-                            ],
-                          }
-                        }
+                        login={[Function]}
+                        logout={[Function]}
                         status="Available"
                         userName="Tom Evans"
                       >
