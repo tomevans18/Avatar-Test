@@ -27,7 +27,16 @@ exports[`App Provider should render as expected 1`] = `
     }
   }
 >
-  <UserProvider>
+  <UserProvider
+    protectedPage={false}
+    user={
+      Object {
+        "avatar": "https://pbs.twimg.com/profile_images/1066699912425934848/ak1-6yzy_400x400.jpg",
+        "status": "Available",
+        "userName": "Tom Evans",
+      }
+    }
+  >
     <ResizeAnimationHandler>
       <MockComponent />
     </ResizeAnimationHandler>

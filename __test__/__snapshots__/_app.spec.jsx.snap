@@ -181,7 +181,18 @@ exports[`App should render as expected with layout passed with component 1`] = `
     </title>
   </Head>
   <GlobalStyleComponent />
-  <AppProviders>
+  <AppProviders
+    protectedPage={false}
+    user={
+      Object {
+        "avatar": null,
+        "isLoggedIn": false,
+        "protectedPage": false,
+        "status": "Available",
+        "userName": null,
+      }
+    }
+  >
     <Index>
       <Component
         Component={[Function]}
@@ -199,9 +210,30 @@ exports[`App should render as expected with no layout passed with component 1`] 
     </title>
   </Head>
   <GlobalStyleComponent />
-  <AppProviders>
+  <AppProviders
+    protectedPage={false}
+    user={
+      Object {
+        "avatar": null,
+        "isLoggedIn": false,
+        "protectedPage": false,
+        "status": "Available",
+        "userName": null,
+      }
+    }
+  >
     <Index>
-      <Foundation>
+      <Foundation
+        user={
+          Object {
+            "avatar": null,
+            "isLoggedIn": false,
+            "protectedPage": false,
+            "status": "Available",
+            "userName": null,
+          }
+        }
+      >
         <MockComponent />
       </Foundation>
     </Index>
@@ -240,7 +272,18 @@ exports[`App should render as expected with no passed component 1`] = `
   outline: 0;
 }
 
-<MyApp>
+<MyApp
+  protectedPage={false}
+  user={
+    Object {
+      "avatar": null,
+      "isLoggedIn": false,
+      "protectedPage": false,
+      "status": "Available",
+      "userName": null,
+    }
+  }
+>
   <Container>
     <Head>
       <SideEffect
@@ -249,7 +292,18 @@ exports[`App should render as expected with no passed component 1`] = `
         reduceComponentsToState={[Function]}
       />
     </Head>
-    <AppProviders>
+    <AppProviders
+      protectedPage={false}
+      user={
+        Object {
+          "avatar": null,
+          "isLoggedIn": false,
+          "protectedPage": false,
+          "status": "Available",
+          "userName": null,
+        }
+      }
+    >
       <ThemeProvider
         theme={
           Object {
@@ -276,7 +330,18 @@ exports[`App should render as expected with no passed component 1`] = `
           }
         }
       >
-        <UserProvider>
+        <UserProvider
+          protectedPage={false}
+          user={
+            Object {
+              "avatar": null,
+              "isLoggedIn": false,
+              "protectedPage": false,
+              "status": "Available",
+              "userName": null,
+            }
+          }
+        >
           <ResizeAnimationHandler>
             <styled.div
               resizing={false}
@@ -555,9 +620,30 @@ exports[`App should render only reset styles 1`] = `
     </title>
   </Head>
   <GlobalStyleComponent />
-  <AppProviders>
+  <AppProviders
+    protectedPage={false}
+    user={
+      Object {
+        "avatar": null,
+        "isLoggedIn": false,
+        "protectedPage": false,
+        "status": "Available",
+        "userName": null,
+      }
+    }
+  >
     <Index>
-      <Foundation>
+      <Foundation
+        user={
+          Object {
+            "avatar": null,
+            "isLoggedIn": false,
+            "protectedPage": false,
+            "status": "Available",
+            "userName": null,
+          }
+        }
+      >
         <MockComponent />
       </Foundation>
     </Index>
@@ -573,9 +659,30 @@ exports[`App should render with all styles 1`] = `
     </title>
   </Head>
   <GlobalStyleComponent />
-  <AppProviders>
+  <AppProviders
+    protectedPage={false}
+    user={
+      Object {
+        "avatar": null,
+        "isLoggedIn": false,
+        "protectedPage": false,
+        "status": "Available",
+        "userName": null,
+      }
+    }
+  >
     <Index>
-      <Foundation>
+      <Foundation
+        user={
+          Object {
+            "avatar": null,
+            "isLoggedIn": false,
+            "protectedPage": false,
+            "status": "Available",
+            "userName": null,
+          }
+        }
+      >
         <MockComponent />
       </Foundation>
     </Index>

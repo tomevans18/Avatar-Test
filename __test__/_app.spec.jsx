@@ -10,6 +10,17 @@ jest.mock('next/router', () => ({
   withRouter: Component => props => <Component {...mockRouterContext()} {...props} />,
 }));
 
+const requiredProps = {
+  user: {
+    isLoggedIn: false,
+    userName: null,
+    status: 'Available',
+    avatar: null,
+    protectedPage: false,
+  },
+  protectedPage: false,
+};
+
 describe('App', () => {
   beforeEach(() => {
     mockRouterContext.mockReturnValue({
@@ -26,7 +37,7 @@ describe('App', () => {
   const MockComponent = () => <div>TEST</div>;
 
   it('should render as expected with no passed component', () => {
-    const wrapper = mount(<App />);
+    const wrapper = mount(<App {...requiredProps} />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
@@ -34,20 +45,20 @@ describe('App', () => {
     const props = await App.getInitialProps({
       Component: MockComponent,
     });
-    const wrapper = mount(<App {...props} />);
+    const wrapper = mount(<App {...props} {...requiredProps} />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should render only reset styles', () => {
     MockComponent.noGlobalStyles = true;
-    const wrapper = shallow(<App Component={MockComponent} />);
+    const wrapper = shallow(<App Component={MockComponent} {...requiredProps} />);
 
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it('should render with all styles', () => {
     MockComponent.noGlobalStyles = false;
-    const wrapper = shallow(<App Component={MockComponent} />);
+    const wrapper = shallow(<App Component={MockComponent} {...requiredProps} />);
 
     expect(toJson(wrapper)).toMatchSnapshot();
   });
@@ -57,13 +68,13 @@ describe('App', () => {
     const props = await App.getInitialProps({
       Component: MockComponent,
     });
-    const wrapper = mount(<App {...props} />);
+    const wrapper = mount(<App {...props} {...requiredProps} />);
     expect(toJson(wrapper)).toMatchSnapshot();
     expect(MockComponent.getInitialProps).toHaveBeenCalledTimes(1);
   });
 
   it('should render as expected with no layout passed with component', () => {
-    const wrapper = shallow(<App Component={MockComponent} />);
+    const wrapper = shallow(<App Component={MockComponent} {...requiredProps} />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
@@ -73,7 +84,7 @@ describe('App', () => {
         <Component {...passedProps} />
       </section>
     );
-    const wrapper = shallow(<App Component={MockComponent} />);
+    const wrapper = shallow(<App Component={MockComponent} {...requiredProps} />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

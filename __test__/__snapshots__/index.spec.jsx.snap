@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render as expected with no passed component 1`] = `
+.c1 {
+  position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + 1.25em);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + 1.25em);
+}
+
+.c2 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 300px;
+  max-height: 75vh;
+  padding: 1rem 0;
+  background: #eaeaea;
+  margin-bottom: 1.25em;
+}
+
+@supports (padding:max(0px)) {
+  .c1 {
+    padding: 0 max(1.25em,env(safe-area-inset-left));
+  }
+}
+
+@supports (padding:max(0px)) {
+  .c3 {
+    padding: 0 max(1.25em,env(safe-area-inset-left));
+  }
+}
+
+@media (min-width:769px) {
+  .c2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:769px) {
+  .c4 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+}
+
+<Home>
+  <Sidebar
+    banner={[Function]}
+    content={[Function]}
+    leftSidebar={null}
+    pageTitle={null}
+    rightSidebar={null}
+    stretchLeft={false}
+    stretchMain={false}
+    stretchRight={false}
+  >
+    <Banner>
+      <styled.div>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-ckVGcZ",
+                "isStatic": false,
+                "lastClassName": "c0",
+                "rules": Array [
+                  "
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px; // NOTE: you should use px as rem will increase if the font size is increase in the browser. Using rem = poor accessibility experience.
+  max-height: 75vh;
+  padding: 1rem 0;
+  background: ",
+                  [Function],
+                  ";
+  margin-bottom: ",
+                  [Function],
+                  ";
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-ckVGcZ",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="c0"
+          >
+            <ContentWrapper>
+              <styled.div>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  ",
+                          [Function],
+                          " position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + ",
+                          [Function],
+                          ");
+
+  @supports (padding: max(0px)) {
+    padding: 0 max(",
+                          [Function],
+                          ", env(safe-area-inset-left));
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c1"
+                  >
+                    <h1>
+                      Banner Component
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </ContentWrapper>
+          </div>
+        </StyledComponent>
+      </styled.div>
+    </Banner>
+    <Styled(ContentWrapper)
+      flex={true}
+    >
+      <StyledComponent
+        flex={true}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-kGXeez",
+              "isStatic": false,
+              "lastClassName": "c2",
+              "rules": Array [
+                "
+  flex-direction: column;
+  margin-bottom: ",
+                [Function],
+                ";
+  margin-top: ",
+                [Function],
+                ";
+  ",
+                "
+    @media (min-width: ",
+                "769",
+                "px) {
+      ",
+                "
+    flex-direction: row;
+  ",
+                "
+    }
+    ",
+                "
+  ",
+                ";
+",
+              ],
+            },
+            "displayName": "Styled(ContentWrapper)",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-kGXeez",
+            "target": [Function],
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <ContentWrapper
+          className="c2"
+          flex={true}
+        >
+          <styled.div
+            className="c2"
+            flex={true}
+          >
+            <StyledComponent
+              className="c2"
+              flex={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      " position: relative;
+  width: 100%;
+  max-width: 67rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 calc(env(safe-area-inset-right) + ",
+                      [Function],
+                      ");
+
+  @supports (padding: max(0px)) {
+    padding: 0 max(",
+                      [Function],
+                      ", env(safe-area-inset-left));
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c2 c3"
+              >
+                <styled.main
+                  stretch={false}
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-kpOJdX",
+                          "isStatic": false,
+                          "lastClassName": "c4",
+                          "rules": Array [
+                            "
+  display: flex;
+  flex-direction: column;
+  order: -1;
+  ",
+                            [Function],
+                            ";
+  ",
+                            "
+    @media (min-width: ",
+                            "769",
+                            "px) {
+      ",
+                            "
+    flex: 1;
+    order: 0;
+  ",
+                            "
+    }
+    ",
+                            "
+  ",
+                            ";
+",
+                          ],
+                        },
+                        "displayName": "styled.main",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-kpOJdX",
+                        "target": "main",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    stretch={false}
+                  >
+                    <main
+                      className="c4"
+                    >
+                      <h2>
+                        Homepage
+                      </h2>
+                      <p>
+                        <strong>
+                          Login to view the status update component
+                        </strong>
+                      </p>
+                      <p>
+                        I have implemented a basic user flow with a protect
+                         
+                        <Component
+                          href="/profile"
+                          passHref={true}
+                        >
+                          <a>
+                            profile
+                          </a>
+                        </Component>
+                         
+                        page.
+                      </p>
+                      <p>
+                        This would normally use an aith application to provide the cookie handling and security requirements (e.g. 2nd auth).
+                      </p>
+                      <p>
+                        It uses local storage to track logged in/out state. If you open 2 browsers at the same time you will see both update when selecting the login or logout button.
+                      </p>
+                    </main>
+                  </StyledComponent>
+                </styled.main>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </ContentWrapper>
+      </StyledComponent>
+    </Styled(ContentWrapper)>
+  </Sidebar>
+</Home>
+`;

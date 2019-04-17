@@ -13,7 +13,14 @@ describe('App Provider', () => {
 
   it('should render as expected', () => {
     const wrapper = shallow(
-      <AppProviders>
+      <AppProviders
+        user={{
+          userName: 'Tom Evans',
+          avatar: 'https://pbs.twimg.com/profile_images/1066699912425934848/ak1-6yzy_400x400.jpg',
+          status: 'Available',
+        }}
+        protectedPage={false}
+      >
         <MockComponent />
       </AppProviders>
     );
