@@ -7,7 +7,11 @@ import Layout from '../components/Layout';
 import Banner from '../components/Banner';
 
 const propTypes = {
-  userName: PropTypes.string.isRequired,
+  userName: PropTypes.string,
+};
+
+const defaultProps = {
+  userName: '',
 };
 
 const Profile = ({ userName }) => (
@@ -28,6 +32,7 @@ const Profile = ({ userName }) => (
 );
 
 Profile.propTypes = propTypes;
+Profile.defaultProps = defaultProps;
 Profile.protected = true; // NOTE: this prevents access unless there is a logged in user
 
 export default withUserContext(Profile);

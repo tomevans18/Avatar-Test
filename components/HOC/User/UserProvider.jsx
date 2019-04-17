@@ -20,6 +20,8 @@ class UserProvider extends Component {
       ...{
         isLoggedIn: false,
         userName: null,
+        status: 'Available',
+        avatar: null,
         protectedPage: false,
       },
       ...user,
@@ -74,7 +76,7 @@ class UserProvider extends Component {
   };
 
   render() {
-    const { isLoggedIn, userName } = this.state;
+    const { isLoggedIn, userName, avatar, status } = this.state;
     const { children } = this.props;
     const { login, logout } = this;
 
@@ -83,6 +85,8 @@ class UserProvider extends Component {
         value={{
           isLoggedIn,
           userName,
+          avatar,
+          status,
           login,
           logout,
         }}

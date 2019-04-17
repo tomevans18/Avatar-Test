@@ -1,20 +1,30 @@
 import React, { Component, Fragment } from 'react';
+import PropTypes from 'prop-types';
 
 import Avatar from '../Avatar';
 import UserStatusWrapper, { DropDown } from './UserStatus.style';
+import { withUserContext } from '../HOC/User';
 
 class UserStatus extends Component {
-  state = {
-    isOpen: false,
-    showDropdown: false,
-    statusOptions: ['Available', 'Not Ready', 'Unavailable'],
-    avalibleStatus: ['Not Ready', 'Unavailable'],
-    currentStatus: 'Available',
-    loadingStatus: null,
-    percentage: 0,
+  static propTypes = {
+    status: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
   };
 
   userStatusWrapperRef = React.createRef();
+
+  constructor({ status }) {
+    super();
+    this.state = {
+      isOpen: false,
+      showDropdown: false,
+      statusOptions: ['Available', 'Not Ready', 'Unavailable'],
+      avalibleStatus: ['Not Ready', 'Unavailable'],
+      currentStatus: status,
+      loadingStatus: null,
+      percentage: 0,
+    };
+  }
 
   componentWillUnmount() {
     document.removeEventListener('mousedown', this.handleClickOutside, false);
@@ -136,14 +146,11 @@ class UserStatus extends Component {
       loadingStatus,
       percentage,
     } = this.state;
+    const { avatar } = this.props;
     return (
       <Fragment>
         <UserStatusWrapper ref={this.userStatusWrapperRef}>
-          <Avatar
-            status={currentStatus}
-            onClick={this.handleToggle}
-            img="https://pbs.twimg.com/profile_images/1066699912425934848/ak1-6yzy_400x400.jpg"
-          />
+          <Avatar status={currentStatus} onClick={this.handleToggle} img={avatar} />
           {showDropdown && (
             <DropDown isOpen={isOpen}>
               {avalibleStatus.map(status => (
@@ -154,7 +161,7 @@ class UserStatus extends Component {
                   status={status}
                   percentage={status === loadingStatus ? percentage : 0}
                   onClick={() => this.updateStatus(status)}
-                  img="https://pbs.twimg.com/profile_images/1066699912425934848/ak1-6yzy_400x400.jpg"
+                  img={avatar}
                 />
               ))}
             </DropDown>
@@ -165,4 +172,4 @@ class UserStatus extends Component {
   }
 }
 
-export default UserStatus;
+export default withUserContext(UserStatus);

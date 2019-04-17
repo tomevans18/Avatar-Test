@@ -7,6 +7,7 @@ import { createGlobalStyle } from 'styled-components';
 
 // import fetchHandler from '../lib/fetchHandler';
 
+import fetch from 'isomorphic-unfetch';
 import ResetStyles from '../styles/reset.style';
 import GlobalStyles from '../styles/global.style';
 
@@ -33,14 +34,12 @@ class MyApp extends App {
 
     try {
       if (token) {
-        // NOTE: Normally API call to OIDC OP to get user
-        // const data = await fetchHandler(
-        //   'https://example.com/api/user/'
-        // );
-        // const { userName } = data;
+        const response = await fetch('http://localhost:3004/user');
+        const json = await response.json();
+
         user = {
           isLoggedIn: true,
-          userName: 'Tom Evans',
+          ...json,
         };
       } else {
         user = { isLoggedIn: false };
