@@ -1,0 +1,4229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should do nothing on click of button if no onClick function is passed 1`] = `
+.c3 circle {
+  fill: none;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 {
+  stroke: rgb(220,221,225);
+  stroke-width: 30px;
+}
+
+.c6 {
+  stroke: #2d8bd8;
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  -webkit-transition: stroke-dashoffset 0.5s ease;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: 628px;
+}
+
+.c7 {
+  position: relative;
+  background: rgb(220,221,225);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid rgb(46,204,113);
+  z-index: 996;
+}
+
+.c7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(46,204,113);
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 2;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  -webkit-transition: filter 0.25s ease-in-out;
+  transition: filter 0.25s ease-in-out;
+}
+
+.c2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c1 + .c0 {
+  margin-top: 0.75rem;
+}
+
+.c9 + .c0 {
+  margin-top: 0.75rem;
+}
+
+<Avatar
+  className={null}
+  disabled={false}
+  hoverScale={false}
+  img="http://example.com"
+  onClick={[Function]}
+  percentage={0}
+  status="Available"
+>
+  <styled.div
+    hoverScale={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "c0",
+            "isStatic": false,
+            "lastClassName": "c1",
+            "rules": Array [
+              "
+  position: relative;
+  transition: transform 0.25s ease-in-out;
+
+  & + & {
+    margin-top: 0.75rem;
+  }
+
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "c0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hoverScale={false}
+    >
+      <div
+        className="c0 c1"
+      >
+        <Styled(Donut)
+          background="grey"
+          foreground="blue"
+          percentage={0}
+        >
+          <StyledComponent
+            background="grey"
+            foreground="blue"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: ",
+                    [Function],
+                    ";
+  transform: scale(",
+                    [Function],
+                    ");
+  transition: opacity 0.25s ease-in-out, opacity 0.25s ease-in-out;
+",
+                  ],
+                },
+                "displayName": "Styled(Donut)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            percentage={0}
+          >
+            <Donut
+              background="grey"
+              className="c2"
+              foreground="blue"
+              percentage={0}
+            >
+              <styled.div
+                className="c2"
+              >
+                <StyledComponent
+                  className="c2"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  circle {
+    fill: none;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2 c3"
+                  >
+                    <styled.svg
+                      enableBackground="new 0 0 333 333"
+                      viewBox="0 0 333 333"
+                      xmlSpace="preserve"
+                    >
+                      <StyledComponent
+                        enableBackground="new 0 0 333 333"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": true,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "
+  width: 100%;
+  height: 100%;
+",
+                              ],
+                            },
+                            "displayName": "styled.svg",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "svg",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        viewBox="0 0 333 333"
+                        xmlSpace="preserve"
+                      >
+                        <svg
+                          className="c4"
+                          enableBackground="new 0 0 333 333"
+                          viewBox="0 0 333 333"
+                          xmlSpace="preserve"
+                        >
+                          <g
+                            transform="translate(166, 166), scale(1.445)"
+                          >
+                            <styled.circle
+                              background="grey"
+                              className="circle-back"
+                              r="100"
+                            >
+                              <StyledComponent
+                                background="grey"
+                                className="circle-back"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-htpNat",
+                                      "isStatic": false,
+                                      "lastClassName": "c5",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-htpNat",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                r="100"
+                              >
+                                <circle
+                                  className="circle-back c5"
+                                  r="100"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                            <styled.circle
+                              foreground="blue"
+                              percentage={0}
+                              r="100"
+                              transform="rotate(270.1)"
+                            >
+                              <StyledComponent
+                                foreground="blue"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-bxivhb",
+                                      "isStatic": false,
+                                      "lastClassName": "c6",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: ",
+                                        [Function],
+                                        "px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-bxivhb",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                percentage={0}
+                                r="100"
+                                transform="rotate(270.1)"
+                              >
+                                <circle
+                                  className="c6"
+                                  r="100"
+                                  transform="rotate(270.1)"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                          </g>
+                        </svg>
+                      </StyledComponent>
+                    </styled.svg>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </Donut>
+          </StyledComponent>
+        </Styled(Donut)>
+        <styled.button
+          className={null}
+          disabled={false}
+          onClick={[Function]}
+          percentage={0}
+          status="available"
+          type="button"
+        >
+          <StyledComponent
+            className={null}
+            disabled={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "c7",
+                  "rules": Array [
+                    "
+  position: relative;
+  background: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid
+    ",
+                    [Function],
+                    ";
+  z-index: 996;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: ",
+                    [Function],
+                    ";
+    opacity: ",
+                    [Function],
+                    ";
+    transition: opacity 0.25s ease-in-out;
+    z-index: 2;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+            percentage={0}
+            status="available"
+            type="button"
+          >
+            <button
+              className="c7"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Available
+              <styled.img
+                alt="profile avatar for available status"
+                src="http://example.com"
+                status="available"
+              >
+                <StyledComponent
+                  alt="profile avatar for available status"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "lastClassName": "c8",
+                        "rules": Array [
+                          "
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  filter: ",
+                          [Function],
+                          ";
+  transition: filter 0.25s ease-in-out;
+",
+                        ],
+                      },
+                      "displayName": "styled.img",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="http://example.com"
+                  status="available"
+                >
+                  <img
+                    alt="profile avatar for available status"
+                    className="c8"
+                    src="http://example.com"
+                  />
+                </StyledComponent>
+              </styled.img>
+            </button>
+          </StyledComponent>
+        </styled.button>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render as expected 1`] = `
+.c3 circle {
+  fill: none;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 {
+  stroke: rgb(220,221,225);
+  stroke-width: 30px;
+}
+
+.c6 {
+  stroke: #2d8bd8;
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  -webkit-transition: stroke-dashoffset 0.5s ease;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: 628px;
+}
+
+.c7 {
+  position: relative;
+  background: rgb(220,221,225);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid rgb(46,204,113);
+  z-index: 996;
+}
+
+.c7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(46,204,113);
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 2;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  -webkit-transition: filter 0.25s ease-in-out;
+  transition: filter 0.25s ease-in-out;
+}
+
+.c2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c1 + .c0 {
+  margin-top: 0.75rem;
+}
+
+<Avatar
+  className={null}
+  disabled={false}
+  hoverScale={false}
+  img="http://example.com"
+  onClick={[Function]}
+  percentage={0}
+  status="Available"
+>
+  <styled.div
+    hoverScale={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "c0",
+            "isStatic": false,
+            "lastClassName": "c1",
+            "rules": Array [
+              "
+  position: relative;
+  transition: transform 0.25s ease-in-out;
+
+  & + & {
+    margin-top: 0.75rem;
+  }
+
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "c0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hoverScale={false}
+    >
+      <div
+        className="c0 c1"
+      >
+        <Styled(Donut)
+          background="grey"
+          foreground="blue"
+          percentage={0}
+        >
+          <StyledComponent
+            background="grey"
+            foreground="blue"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: ",
+                    [Function],
+                    ";
+  transform: scale(",
+                    [Function],
+                    ");
+  transition: opacity 0.25s ease-in-out, opacity 0.25s ease-in-out;
+",
+                  ],
+                },
+                "displayName": "Styled(Donut)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            percentage={0}
+          >
+            <Donut
+              background="grey"
+              className="c2"
+              foreground="blue"
+              percentage={0}
+            >
+              <styled.div
+                className="c2"
+              >
+                <StyledComponent
+                  className="c2"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  circle {
+    fill: none;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2 c3"
+                  >
+                    <styled.svg
+                      enableBackground="new 0 0 333 333"
+                      viewBox="0 0 333 333"
+                      xmlSpace="preserve"
+                    >
+                      <StyledComponent
+                        enableBackground="new 0 0 333 333"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": true,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "
+  width: 100%;
+  height: 100%;
+",
+                              ],
+                            },
+                            "displayName": "styled.svg",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "svg",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        viewBox="0 0 333 333"
+                        xmlSpace="preserve"
+                      >
+                        <svg
+                          className="c4"
+                          enableBackground="new 0 0 333 333"
+                          viewBox="0 0 333 333"
+                          xmlSpace="preserve"
+                        >
+                          <g
+                            transform="translate(166, 166), scale(1.445)"
+                          >
+                            <styled.circle
+                              background="grey"
+                              className="circle-back"
+                              r="100"
+                            >
+                              <StyledComponent
+                                background="grey"
+                                className="circle-back"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-htpNat",
+                                      "isStatic": false,
+                                      "lastClassName": "c5",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-htpNat",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                r="100"
+                              >
+                                <circle
+                                  className="circle-back c5"
+                                  r="100"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                            <styled.circle
+                              foreground="blue"
+                              percentage={0}
+                              r="100"
+                              transform="rotate(270.1)"
+                            >
+                              <StyledComponent
+                                foreground="blue"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-bxivhb",
+                                      "isStatic": false,
+                                      "lastClassName": "c6",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: ",
+                                        [Function],
+                                        "px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-bxivhb",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                percentage={0}
+                                r="100"
+                                transform="rotate(270.1)"
+                              >
+                                <circle
+                                  className="c6"
+                                  r="100"
+                                  transform="rotate(270.1)"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                          </g>
+                        </svg>
+                      </StyledComponent>
+                    </styled.svg>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </Donut>
+          </StyledComponent>
+        </Styled(Donut)>
+        <styled.button
+          className={null}
+          disabled={false}
+          onClick={[Function]}
+          percentage={0}
+          status="available"
+          type="button"
+        >
+          <StyledComponent
+            className={null}
+            disabled={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "c7",
+                  "rules": Array [
+                    "
+  position: relative;
+  background: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid
+    ",
+                    [Function],
+                    ";
+  z-index: 996;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: ",
+                    [Function],
+                    ";
+    opacity: ",
+                    [Function],
+                    ";
+    transition: opacity 0.25s ease-in-out;
+    z-index: 2;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+            percentage={0}
+            status="available"
+            type="button"
+          >
+            <button
+              className="c7"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Available
+              <styled.img
+                alt="profile avatar for available status"
+                src="http://example.com"
+                status="available"
+              >
+                <StyledComponent
+                  alt="profile avatar for available status"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "lastClassName": "c8",
+                        "rules": Array [
+                          "
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  filter: ",
+                          [Function],
+                          ";
+  transition: filter 0.25s ease-in-out;
+",
+                        ],
+                      },
+                      "displayName": "styled.img",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="http://example.com"
+                  status="available"
+                >
+                  <img
+                    alt="profile avatar for available status"
+                    className="c8"
+                    src="http://example.com"
+                  />
+                </StyledComponent>
+              </styled.img>
+            </button>
+          </StyledComponent>
+        </styled.button>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render loading percentage as expected 1`] = `
+.c3 circle {
+  fill: none;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 {
+  stroke: rgb(220,221,225);
+  stroke-width: 30px;
+}
+
+.c6 {
+  stroke: #2d8bd8;
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  -webkit-transition: stroke-dashoffset 0.5s ease;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: 314px;
+}
+
+.c7 {
+  position: relative;
+  background: rgb(220,221,225);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid rgb(220,221,225);
+  z-index: 996;
+}
+
+.c7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(46,204,113);
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 2;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  -webkit-transition: filter 0.25s ease-in-out;
+  transition: filter 0.25s ease-in-out;
+}
+
+.c2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c1 + .c0 {
+  margin-top: 0.75rem;
+}
+
+<Avatar
+  className={null}
+  disabled={false}
+  hoverScale={false}
+  img="http://example.com"
+  onClick={[Function]}
+  percentage={50}
+  status="Available"
+>
+  <styled.div
+    hoverScale={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "c0",
+            "isStatic": false,
+            "lastClassName": "c1",
+            "rules": Array [
+              "
+  position: relative;
+  transition: transform 0.25s ease-in-out;
+
+  & + & {
+    margin-top: 0.75rem;
+  }
+
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "c0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hoverScale={false}
+    >
+      <div
+        className="c0 c1"
+      >
+        <Styled(Donut)
+          background="grey"
+          foreground="blue"
+          percentage={50}
+        >
+          <StyledComponent
+            background="grey"
+            foreground="blue"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: ",
+                    [Function],
+                    ";
+  transform: scale(",
+                    [Function],
+                    ");
+  transition: opacity 0.25s ease-in-out, opacity 0.25s ease-in-out;
+",
+                  ],
+                },
+                "displayName": "Styled(Donut)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            percentage={50}
+          >
+            <Donut
+              background="grey"
+              className="c2"
+              foreground="blue"
+              percentage={50}
+            >
+              <styled.div
+                className="c2"
+              >
+                <StyledComponent
+                  className="c2"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  circle {
+    fill: none;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2 c3"
+                  >
+                    <styled.svg
+                      enableBackground="new 0 0 333 333"
+                      viewBox="0 0 333 333"
+                      xmlSpace="preserve"
+                    >
+                      <StyledComponent
+                        enableBackground="new 0 0 333 333"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": true,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "
+  width: 100%;
+  height: 100%;
+",
+                              ],
+                            },
+                            "displayName": "styled.svg",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "svg",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        viewBox="0 0 333 333"
+                        xmlSpace="preserve"
+                      >
+                        <svg
+                          className="c4"
+                          enableBackground="new 0 0 333 333"
+                          viewBox="0 0 333 333"
+                          xmlSpace="preserve"
+                        >
+                          <g
+                            transform="translate(166, 166), scale(1.445)"
+                          >
+                            <styled.circle
+                              background="grey"
+                              className="circle-back"
+                              r="100"
+                            >
+                              <StyledComponent
+                                background="grey"
+                                className="circle-back"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-htpNat",
+                                      "isStatic": false,
+                                      "lastClassName": "c5",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-htpNat",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                r="100"
+                              >
+                                <circle
+                                  className="circle-back c5"
+                                  r="100"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                            <styled.circle
+                              foreground="blue"
+                              percentage={50}
+                              r="100"
+                              transform="rotate(270.1)"
+                            >
+                              <StyledComponent
+                                foreground="blue"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-bxivhb",
+                                      "isStatic": false,
+                                      "lastClassName": "c6",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: ",
+                                        [Function],
+                                        "px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-bxivhb",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                percentage={50}
+                                r="100"
+                                transform="rotate(270.1)"
+                              >
+                                <circle
+                                  className="c6"
+                                  r="100"
+                                  transform="rotate(270.1)"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                          </g>
+                        </svg>
+                      </StyledComponent>
+                    </styled.svg>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </Donut>
+          </StyledComponent>
+        </Styled(Donut)>
+        <styled.button
+          className={null}
+          disabled={false}
+          onClick={[Function]}
+          percentage={50}
+          status="available"
+          type="button"
+        >
+          <StyledComponent
+            className={null}
+            disabled={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "c7",
+                  "rules": Array [
+                    "
+  position: relative;
+  background: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid
+    ",
+                    [Function],
+                    ";
+  z-index: 996;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: ",
+                    [Function],
+                    ";
+    opacity: ",
+                    [Function],
+                    ";
+    transition: opacity 0.25s ease-in-out;
+    z-index: 2;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+            percentage={50}
+            status="available"
+            type="button"
+          >
+            <button
+              className="c7"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Available
+              <styled.img
+                alt="profile avatar for available status"
+                src="http://example.com"
+                status="available"
+              >
+                <StyledComponent
+                  alt="profile avatar for available status"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "lastClassName": "c8",
+                        "rules": Array [
+                          "
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  filter: ",
+                          [Function],
+                          ";
+  transition: filter 0.25s ease-in-out;
+",
+                        ],
+                      },
+                      "displayName": "styled.img",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="http://example.com"
+                  status="available"
+                >
+                  <img
+                    alt="profile avatar for available status"
+                    className="c8"
+                    src="http://example.com"
+                  />
+                </StyledComponent>
+              </styled.img>
+            </button>
+          </StyledComponent>
+        </styled.button>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render status "Available" as expected 1`] = `
+.c3 circle {
+  fill: none;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 {
+  stroke: rgb(220,221,225);
+  stroke-width: 30px;
+}
+
+.c6 {
+  stroke: #2d8bd8;
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  -webkit-transition: stroke-dashoffset 0.5s ease;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: 628px;
+}
+
+.c7 {
+  position: relative;
+  background: rgb(220,221,225);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid rgb(46,204,113);
+  z-index: 996;
+}
+
+.c7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(46,204,113);
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 2;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  -webkit-transition: filter 0.25s ease-in-out;
+  transition: filter 0.25s ease-in-out;
+}
+
+.c2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c1 + .c0 {
+  margin-top: 0.75rem;
+}
+
+<Avatar
+  className={null}
+  disabled={false}
+  hoverScale={false}
+  img="http://example.com"
+  onClick={[Function]}
+  percentage={0}
+  status="Available"
+>
+  <styled.div
+    hoverScale={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "c0",
+            "isStatic": false,
+            "lastClassName": "c1",
+            "rules": Array [
+              "
+  position: relative;
+  transition: transform 0.25s ease-in-out;
+
+  & + & {
+    margin-top: 0.75rem;
+  }
+
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "c0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hoverScale={false}
+    >
+      <div
+        className="c0 c1"
+      >
+        <Styled(Donut)
+          background="grey"
+          foreground="blue"
+          percentage={0}
+        >
+          <StyledComponent
+            background="grey"
+            foreground="blue"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: ",
+                    [Function],
+                    ";
+  transform: scale(",
+                    [Function],
+                    ");
+  transition: opacity 0.25s ease-in-out, opacity 0.25s ease-in-out;
+",
+                  ],
+                },
+                "displayName": "Styled(Donut)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            percentage={0}
+          >
+            <Donut
+              background="grey"
+              className="c2"
+              foreground="blue"
+              percentage={0}
+            >
+              <styled.div
+                className="c2"
+              >
+                <StyledComponent
+                  className="c2"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  circle {
+    fill: none;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2 c3"
+                  >
+                    <styled.svg
+                      enableBackground="new 0 0 333 333"
+                      viewBox="0 0 333 333"
+                      xmlSpace="preserve"
+                    >
+                      <StyledComponent
+                        enableBackground="new 0 0 333 333"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": true,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "
+  width: 100%;
+  height: 100%;
+",
+                              ],
+                            },
+                            "displayName": "styled.svg",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "svg",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        viewBox="0 0 333 333"
+                        xmlSpace="preserve"
+                      >
+                        <svg
+                          className="c4"
+                          enableBackground="new 0 0 333 333"
+                          viewBox="0 0 333 333"
+                          xmlSpace="preserve"
+                        >
+                          <g
+                            transform="translate(166, 166), scale(1.445)"
+                          >
+                            <styled.circle
+                              background="grey"
+                              className="circle-back"
+                              r="100"
+                            >
+                              <StyledComponent
+                                background="grey"
+                                className="circle-back"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-htpNat",
+                                      "isStatic": false,
+                                      "lastClassName": "c5",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-htpNat",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                r="100"
+                              >
+                                <circle
+                                  className="circle-back c5"
+                                  r="100"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                            <styled.circle
+                              foreground="blue"
+                              percentage={0}
+                              r="100"
+                              transform="rotate(270.1)"
+                            >
+                              <StyledComponent
+                                foreground="blue"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-bxivhb",
+                                      "isStatic": false,
+                                      "lastClassName": "c6",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: ",
+                                        [Function],
+                                        "px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-bxivhb",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                percentage={0}
+                                r="100"
+                                transform="rotate(270.1)"
+                              >
+                                <circle
+                                  className="c6"
+                                  r="100"
+                                  transform="rotate(270.1)"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                          </g>
+                        </svg>
+                      </StyledComponent>
+                    </styled.svg>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </Donut>
+          </StyledComponent>
+        </Styled(Donut)>
+        <styled.button
+          className={null}
+          disabled={false}
+          onClick={[Function]}
+          percentage={0}
+          status="available"
+          type="button"
+        >
+          <StyledComponent
+            className={null}
+            disabled={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "c7",
+                  "rules": Array [
+                    "
+  position: relative;
+  background: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid
+    ",
+                    [Function],
+                    ";
+  z-index: 996;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: ",
+                    [Function],
+                    ";
+    opacity: ",
+                    [Function],
+                    ";
+    transition: opacity 0.25s ease-in-out;
+    z-index: 2;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+            percentage={0}
+            status="available"
+            type="button"
+          >
+            <button
+              className="c7"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Available
+              <styled.img
+                alt="profile avatar for available status"
+                src="http://example.com"
+                status="available"
+              >
+                <StyledComponent
+                  alt="profile avatar for available status"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "lastClassName": "c8",
+                        "rules": Array [
+                          "
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  filter: ",
+                          [Function],
+                          ";
+  transition: filter 0.25s ease-in-out;
+",
+                        ],
+                      },
+                      "displayName": "styled.img",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="http://example.com"
+                  status="available"
+                >
+                  <img
+                    alt="profile avatar for available status"
+                    className="c8"
+                    src="http://example.com"
+                  />
+                </StyledComponent>
+              </styled.img>
+            </button>
+          </StyledComponent>
+        </styled.button>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render status "Not Ready" as expected 1`] = `
+.c3 circle {
+  fill: none;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 {
+  stroke: rgb(220,221,225);
+  stroke-width: 30px;
+}
+
+.c6 {
+  stroke: #2d8bd8;
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  -webkit-transition: stroke-dashoffset 0.5s ease;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: 628px;
+}
+
+.c7 {
+  position: relative;
+  background: rgb(220,221,225);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid rgb(251,197,49);
+  z-index: 996;
+}
+
+.c7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(251,197,49);
+  opacity: 0.4;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 2;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  -webkit-transition: filter 0.25s ease-in-out;
+  transition: filter 0.25s ease-in-out;
+}
+
+.c2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c1 + .c0 {
+  margin-top: 0.75rem;
+}
+
+<Avatar
+  className={null}
+  disabled={false}
+  hoverScale={false}
+  img="http://example.com"
+  onClick={[Function]}
+  percentage={0}
+  status="Not Ready"
+>
+  <styled.div
+    hoverScale={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "c0",
+            "isStatic": false,
+            "lastClassName": "c1",
+            "rules": Array [
+              "
+  position: relative;
+  transition: transform 0.25s ease-in-out;
+
+  & + & {
+    margin-top: 0.75rem;
+  }
+
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "c0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hoverScale={false}
+    >
+      <div
+        className="c0 c1"
+      >
+        <Styled(Donut)
+          background="grey"
+          foreground="blue"
+          percentage={0}
+        >
+          <StyledComponent
+            background="grey"
+            foreground="blue"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: ",
+                    [Function],
+                    ";
+  transform: scale(",
+                    [Function],
+                    ");
+  transition: opacity 0.25s ease-in-out, opacity 0.25s ease-in-out;
+",
+                  ],
+                },
+                "displayName": "Styled(Donut)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            percentage={0}
+          >
+            <Donut
+              background="grey"
+              className="c2"
+              foreground="blue"
+              percentage={0}
+            >
+              <styled.div
+                className="c2"
+              >
+                <StyledComponent
+                  className="c2"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  circle {
+    fill: none;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2 c3"
+                  >
+                    <styled.svg
+                      enableBackground="new 0 0 333 333"
+                      viewBox="0 0 333 333"
+                      xmlSpace="preserve"
+                    >
+                      <StyledComponent
+                        enableBackground="new 0 0 333 333"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": true,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "
+  width: 100%;
+  height: 100%;
+",
+                              ],
+                            },
+                            "displayName": "styled.svg",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "svg",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        viewBox="0 0 333 333"
+                        xmlSpace="preserve"
+                      >
+                        <svg
+                          className="c4"
+                          enableBackground="new 0 0 333 333"
+                          viewBox="0 0 333 333"
+                          xmlSpace="preserve"
+                        >
+                          <g
+                            transform="translate(166, 166), scale(1.445)"
+                          >
+                            <styled.circle
+                              background="grey"
+                              className="circle-back"
+                              r="100"
+                            >
+                              <StyledComponent
+                                background="grey"
+                                className="circle-back"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-htpNat",
+                                      "isStatic": false,
+                                      "lastClassName": "c5",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-htpNat",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                r="100"
+                              >
+                                <circle
+                                  className="circle-back c5"
+                                  r="100"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                            <styled.circle
+                              foreground="blue"
+                              percentage={0}
+                              r="100"
+                              transform="rotate(270.1)"
+                            >
+                              <StyledComponent
+                                foreground="blue"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-bxivhb",
+                                      "isStatic": false,
+                                      "lastClassName": "c6",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: ",
+                                        [Function],
+                                        "px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-bxivhb",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                percentage={0}
+                                r="100"
+                                transform="rotate(270.1)"
+                              >
+                                <circle
+                                  className="c6"
+                                  r="100"
+                                  transform="rotate(270.1)"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                          </g>
+                        </svg>
+                      </StyledComponent>
+                    </styled.svg>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </Donut>
+          </StyledComponent>
+        </Styled(Donut)>
+        <styled.button
+          className={null}
+          disabled={false}
+          onClick={[Function]}
+          percentage={0}
+          status="notReady"
+          type="button"
+        >
+          <StyledComponent
+            className={null}
+            disabled={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "c7",
+                  "rules": Array [
+                    "
+  position: relative;
+  background: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid
+    ",
+                    [Function],
+                    ";
+  z-index: 996;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: ",
+                    [Function],
+                    ";
+    opacity: ",
+                    [Function],
+                    ";
+    transition: opacity 0.25s ease-in-out;
+    z-index: 2;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+            percentage={0}
+            status="notReady"
+            type="button"
+          >
+            <button
+              className="c7"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Not Ready
+              <styled.img
+                alt="profile avatar for not ready status"
+                src="http://example.com"
+                status="notReady"
+              >
+                <StyledComponent
+                  alt="profile avatar for not ready status"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "lastClassName": "c8",
+                        "rules": Array [
+                          "
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  filter: ",
+                          [Function],
+                          ";
+  transition: filter 0.25s ease-in-out;
+",
+                        ],
+                      },
+                      "displayName": "styled.img",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="http://example.com"
+                  status="notReady"
+                >
+                  <img
+                    alt="profile avatar for not ready status"
+                    className="c8"
+                    src="http://example.com"
+                  />
+                </StyledComponent>
+              </styled.img>
+            </button>
+          </StyledComponent>
+        </styled.button>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render status "Unavailable" as expected 1`] = `
+.c3 circle {
+  fill: none;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 {
+  stroke: rgb(220,221,225);
+  stroke-width: 30px;
+}
+
+.c6 {
+  stroke: #2d8bd8;
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  -webkit-transition: stroke-dashoffset 0.5s ease;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: 628px;
+}
+
+.c7 {
+  position: relative;
+  background: rgb(220,221,225);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid rgb(194,54,22);
+  z-index: 996;
+}
+
+.c7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(194,54,22);
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 2;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: filter 0.25s ease-in-out;
+  transition: filter 0.25s ease-in-out;
+}
+
+.c2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c1 + .c0 {
+  margin-top: 0.75rem;
+}
+
+<Avatar
+  className={null}
+  disabled={false}
+  hoverScale={false}
+  img="http://example.com"
+  onClick={[Function]}
+  percentage={0}
+  status="Unavailable"
+>
+  <styled.div
+    hoverScale={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "c0",
+            "isStatic": false,
+            "lastClassName": "c1",
+            "rules": Array [
+              "
+  position: relative;
+  transition: transform 0.25s ease-in-out;
+
+  & + & {
+    margin-top: 0.75rem;
+  }
+
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "c0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hoverScale={false}
+    >
+      <div
+        className="c0 c1"
+      >
+        <Styled(Donut)
+          background="grey"
+          foreground="blue"
+          percentage={0}
+        >
+          <StyledComponent
+            background="grey"
+            foreground="blue"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: ",
+                    [Function],
+                    ";
+  transform: scale(",
+                    [Function],
+                    ");
+  transition: opacity 0.25s ease-in-out, opacity 0.25s ease-in-out;
+",
+                  ],
+                },
+                "displayName": "Styled(Donut)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            percentage={0}
+          >
+            <Donut
+              background="grey"
+              className="c2"
+              foreground="blue"
+              percentage={0}
+            >
+              <styled.div
+                className="c2"
+              >
+                <StyledComponent
+                  className="c2"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  circle {
+    fill: none;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2 c3"
+                  >
+                    <styled.svg
+                      enableBackground="new 0 0 333 333"
+                      viewBox="0 0 333 333"
+                      xmlSpace="preserve"
+                    >
+                      <StyledComponent
+                        enableBackground="new 0 0 333 333"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": true,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "
+  width: 100%;
+  height: 100%;
+",
+                              ],
+                            },
+                            "displayName": "styled.svg",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "svg",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        viewBox="0 0 333 333"
+                        xmlSpace="preserve"
+                      >
+                        <svg
+                          className="c4"
+                          enableBackground="new 0 0 333 333"
+                          viewBox="0 0 333 333"
+                          xmlSpace="preserve"
+                        >
+                          <g
+                            transform="translate(166, 166), scale(1.445)"
+                          >
+                            <styled.circle
+                              background="grey"
+                              className="circle-back"
+                              r="100"
+                            >
+                              <StyledComponent
+                                background="grey"
+                                className="circle-back"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-htpNat",
+                                      "isStatic": false,
+                                      "lastClassName": "c5",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-htpNat",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                r="100"
+                              >
+                                <circle
+                                  className="circle-back c5"
+                                  r="100"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                            <styled.circle
+                              foreground="blue"
+                              percentage={0}
+                              r="100"
+                              transform="rotate(270.1)"
+                            >
+                              <StyledComponent
+                                foreground="blue"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-bxivhb",
+                                      "isStatic": false,
+                                      "lastClassName": "c6",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: ",
+                                        [Function],
+                                        "px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-bxivhb",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                percentage={0}
+                                r="100"
+                                transform="rotate(270.1)"
+                              >
+                                <circle
+                                  className="c6"
+                                  r="100"
+                                  transform="rotate(270.1)"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                          </g>
+                        </svg>
+                      </StyledComponent>
+                    </styled.svg>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </Donut>
+          </StyledComponent>
+        </Styled(Donut)>
+        <styled.button
+          className={null}
+          disabled={false}
+          onClick={[Function]}
+          percentage={0}
+          status="unavailable"
+          type="button"
+        >
+          <StyledComponent
+            className={null}
+            disabled={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "c7",
+                  "rules": Array [
+                    "
+  position: relative;
+  background: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid
+    ",
+                    [Function],
+                    ";
+  z-index: 996;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: ",
+                    [Function],
+                    ";
+    opacity: ",
+                    [Function],
+                    ";
+    transition: opacity 0.25s ease-in-out;
+    z-index: 2;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+            percentage={0}
+            status="unavailable"
+            type="button"
+          >
+            <button
+              className="c7"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Unavailable
+              <styled.img
+                alt="profile avatar for unavailable status"
+                src="http://example.com"
+                status="unavailable"
+              >
+                <StyledComponent
+                  alt="profile avatar for unavailable status"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "lastClassName": "c8",
+                        "rules": Array [
+                          "
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  filter: ",
+                          [Function],
+                          ";
+  transition: filter 0.25s ease-in-out;
+",
+                        ],
+                      },
+                      "displayName": "styled.img",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="http://example.com"
+                  status="unavailable"
+                >
+                  <img
+                    alt="profile avatar for unavailable status"
+                    className="c8"
+                    src="http://example.com"
+                  />
+                </StyledComponent>
+              </styled.img>
+            </button>
+          </StyledComponent>
+        </styled.button>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render with scale on hover 1`] = `
+.c3 circle {
+  fill: none;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 {
+  stroke: rgb(220,221,225);
+  stroke-width: 30px;
+}
+
+.c6 {
+  stroke: #2d8bd8;
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  -webkit-transition: stroke-dashoffset 0.5s ease;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: 628px;
+}
+
+.c7 {
+  position: relative;
+  background: rgb(220,221,225);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid rgb(46,204,113);
+  z-index: 996;
+}
+
+.c7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(46,204,113);
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 2;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  -webkit-transition: filter 0.25s ease-in-out;
+  transition: filter 0.25s ease-in-out;
+}
+
+.c2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+}
+
+.c9 + .c0 {
+  margin-top: 0.75rem;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c1 + .c0 {
+  margin-top: 0.75rem;
+}
+
+.c1:hover {
+  -webkit-transform: scale(1.075);
+  -ms-transform: scale(1.075);
+  transform: scale(1.075);
+}
+
+<Avatar
+  className={null}
+  disabled={false}
+  hoverScale={true}
+  img="http://example.com"
+  onClick={[Function]}
+  percentage={0}
+  status="Available"
+>
+  <styled.div
+    hoverScale={true}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "c0",
+            "isStatic": false,
+            "lastClassName": "c1",
+            "rules": Array [
+              "
+  position: relative;
+  transition: transform 0.25s ease-in-out;
+
+  & + & {
+    margin-top: 0.75rem;
+  }
+
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "c0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hoverScale={true}
+    >
+      <div
+        className="c0 c1"
+      >
+        <Styled(Donut)
+          background="grey"
+          foreground="blue"
+          percentage={0}
+        >
+          <StyledComponent
+            background="grey"
+            foreground="blue"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: ",
+                    [Function],
+                    ";
+  transform: scale(",
+                    [Function],
+                    ");
+  transition: opacity 0.25s ease-in-out, opacity 0.25s ease-in-out;
+",
+                  ],
+                },
+                "displayName": "Styled(Donut)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            percentage={0}
+          >
+            <Donut
+              background="grey"
+              className="c2"
+              foreground="blue"
+              percentage={0}
+            >
+              <styled.div
+                className="c2"
+              >
+                <StyledComponent
+                  className="c2"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  circle {
+    fill: none;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2 c3"
+                  >
+                    <styled.svg
+                      enableBackground="new 0 0 333 333"
+                      viewBox="0 0 333 333"
+                      xmlSpace="preserve"
+                    >
+                      <StyledComponent
+                        enableBackground="new 0 0 333 333"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": true,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "
+  width: 100%;
+  height: 100%;
+",
+                              ],
+                            },
+                            "displayName": "styled.svg",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "svg",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        viewBox="0 0 333 333"
+                        xmlSpace="preserve"
+                      >
+                        <svg
+                          className="c4"
+                          enableBackground="new 0 0 333 333"
+                          viewBox="0 0 333 333"
+                          xmlSpace="preserve"
+                        >
+                          <g
+                            transform="translate(166, 166), scale(1.445)"
+                          >
+                            <styled.circle
+                              background="grey"
+                              className="circle-back"
+                              r="100"
+                            >
+                              <StyledComponent
+                                background="grey"
+                                className="circle-back"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-htpNat",
+                                      "isStatic": false,
+                                      "lastClassName": "c5",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-htpNat",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                r="100"
+                              >
+                                <circle
+                                  className="circle-back c5"
+                                  r="100"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                            <styled.circle
+                              foreground="blue"
+                              percentage={0}
+                              r="100"
+                              transform="rotate(270.1)"
+                            >
+                              <StyledComponent
+                                foreground="blue"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-bxivhb",
+                                      "isStatic": false,
+                                      "lastClassName": "c6",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: ",
+                                        [Function],
+                                        "px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-bxivhb",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                percentage={0}
+                                r="100"
+                                transform="rotate(270.1)"
+                              >
+                                <circle
+                                  className="c6"
+                                  r="100"
+                                  transform="rotate(270.1)"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                          </g>
+                        </svg>
+                      </StyledComponent>
+                    </styled.svg>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </Donut>
+          </StyledComponent>
+        </Styled(Donut)>
+        <styled.button
+          className={null}
+          disabled={false}
+          onClick={[Function]}
+          percentage={0}
+          status="available"
+          type="button"
+        >
+          <StyledComponent
+            className={null}
+            disabled={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "c7",
+                  "rules": Array [
+                    "
+  position: relative;
+  background: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid
+    ",
+                    [Function],
+                    ";
+  z-index: 996;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: ",
+                    [Function],
+                    ";
+    opacity: ",
+                    [Function],
+                    ";
+    transition: opacity 0.25s ease-in-out;
+    z-index: 2;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+            percentage={0}
+            status="available"
+            type="button"
+          >
+            <button
+              className="c7"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Available
+              <styled.img
+                alt="profile avatar for available status"
+                src="http://example.com"
+                status="available"
+              >
+                <StyledComponent
+                  alt="profile avatar for available status"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "lastClassName": "c8",
+                        "rules": Array [
+                          "
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  filter: ",
+                          [Function],
+                          ";
+  transition: filter 0.25s ease-in-out;
+",
+                        ],
+                      },
+                      "displayName": "styled.img",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="http://example.com"
+                  status="available"
+                >
+                  <img
+                    alt="profile avatar for available status"
+                    className="c8"
+                    src="http://example.com"
+                  />
+                </StyledComponent>
+              </styled.img>
+            </button>
+          </StyledComponent>
+        </styled.button>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should run passed onClick function on click of button 1`] = `
+.c3 circle {
+  fill: none;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+}
+
+.c5 {
+  stroke: rgb(220,221,225);
+  stroke-width: 30px;
+}
+
+.c6 {
+  stroke: #2d8bd8;
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  -webkit-transition: stroke-dashoffset 0.5s ease;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: 628px;
+}
+
+.c7 {
+  position: relative;
+  background: rgb(220,221,225);
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid rgb(46,204,113);
+  z-index: 996;
+}
+
+.c7:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(46,204,113);
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 2;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  -webkit-transition: filter 0.25s ease-in-out;
+  transition: filter 0.25s ease-in-out;
+}
+
+.c2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out,opacity 0.25s ease-in-out;
+}
+
+.c1 {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c1 + .c0 {
+  margin-top: 0.75rem;
+}
+
+.c9 + .c0 {
+  margin-top: 0.75rem;
+}
+
+<Avatar
+  className={null}
+  disabled={false}
+  hoverScale={false}
+  img="http://example.com"
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  percentage={0}
+  status="Available"
+>
+  <styled.div
+    hoverScale={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "c0",
+            "isStatic": false,
+            "lastClassName": "c1",
+            "rules": Array [
+              "
+  position: relative;
+  transition: transform 0.25s ease-in-out;
+
+  & + & {
+    margin-top: 0.75rem;
+  }
+
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "c0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hoverScale={false}
+    >
+      <div
+        className="c0 c1"
+      >
+        <Styled(Donut)
+          background="grey"
+          foreground="blue"
+          percentage={0}
+        >
+          <StyledComponent
+            background="grey"
+            foreground="blue"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  opacity: ",
+                    [Function],
+                    ";
+  transform: scale(",
+                    [Function],
+                    ");
+  transition: opacity 0.25s ease-in-out, opacity 0.25s ease-in-out;
+",
+                  ],
+                },
+                "displayName": "Styled(Donut)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            percentage={0}
+          >
+            <Donut
+              background="grey"
+              className="c2"
+              foreground="blue"
+              percentage={0}
+            >
+              <styled.div
+                className="c2"
+              >
+                <StyledComponent
+                  className="c2"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  circle {
+    fill: none;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c2 c3"
+                  >
+                    <styled.svg
+                      enableBackground="new 0 0 333 333"
+                      viewBox="0 0 333 333"
+                      xmlSpace="preserve"
+                    >
+                      <StyledComponent
+                        enableBackground="new 0 0 333 333"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": true,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "
+  width: 100%;
+  height: 100%;
+",
+                              ],
+                            },
+                            "displayName": "styled.svg",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "svg",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        viewBox="0 0 333 333"
+                        xmlSpace="preserve"
+                      >
+                        <svg
+                          className="c4"
+                          enableBackground="new 0 0 333 333"
+                          viewBox="0 0 333 333"
+                          xmlSpace="preserve"
+                        >
+                          <g
+                            transform="translate(166, 166), scale(1.445)"
+                          >
+                            <styled.circle
+                              background="grey"
+                              className="circle-back"
+                              r="100"
+                            >
+                              <StyledComponent
+                                background="grey"
+                                className="circle-back"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-htpNat",
+                                      "isStatic": false,
+                                      "lastClassName": "c5",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-htpNat",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                r="100"
+                              >
+                                <circle
+                                  className="circle-back c5"
+                                  r="100"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                            <styled.circle
+                              foreground="blue"
+                              percentage={0}
+                              r="100"
+                              transform="rotate(270.1)"
+                            >
+                              <StyledComponent
+                                foreground="blue"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-bxivhb",
+                                      "isStatic": false,
+                                      "lastClassName": "c6",
+                                      "rules": Array [
+                                        "
+  stroke: ",
+                                        [Function],
+                                        ";
+  stroke-width: 30px;
+  stroke-dasharray: 629px;
+  stroke-dashoffset: 629px;
+  transition: stroke-dashoffset 0.5s ease;
+  stroke-dashoffset: ",
+                                        [Function],
+                                        "px;
+",
+                                      ],
+                                    },
+                                    "displayName": "styled.circle",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-bxivhb",
+                                    "target": "circle",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                percentage={0}
+                                r="100"
+                                transform="rotate(270.1)"
+                              >
+                                <circle
+                                  className="c6"
+                                  r="100"
+                                  transform="rotate(270.1)"
+                                />
+                              </StyledComponent>
+                            </styled.circle>
+                          </g>
+                        </svg>
+                      </StyledComponent>
+                    </styled.svg>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </Donut>
+          </StyledComponent>
+        </Styled(Donut)>
+        <styled.button
+          className={null}
+          disabled={false}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            }
+          }
+          percentage={0}
+          status="available"
+          type="button"
+        >
+          <StyledComponent
+            className={null}
+            disabled={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-ifAKCX",
+                  "isStatic": false,
+                  "lastClassName": "c7",
+                  "rules": Array [
+                    "
+  position: relative;
+  background: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border 0.25s ease-in-out;
+  border: 0.25rem solid
+    ",
+                    [Function],
+                    ";
+  z-index: 996;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: ",
+                    [Function],
+                    ";
+    opacity: ",
+                    [Function],
+                    ";
+    transition: opacity 0.25s ease-in-out;
+    z-index: 2;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-ifAKCX",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            percentage={0}
+            status="available"
+            type="button"
+          >
+            <button
+              className="c7"
+              disabled={false}
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                  "results": Array [
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                  ],
+                }
+              }
+              type="button"
+            >
+              Available
+              <styled.img
+                alt="profile avatar for available status"
+                src="http://example.com"
+                status="available"
+              >
+                <StyledComponent
+                  alt="profile avatar for available status"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "lastClassName": "c8",
+                        "rules": Array [
+                          "
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  filter: ",
+                          [Function],
+                          ";
+  transition: filter 0.25s ease-in-out;
+",
+                        ],
+                      },
+                      "displayName": "styled.img",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  src="http://example.com"
+                  status="available"
+                >
+                  <img
+                    alt="profile avatar for available status"
+                    className="c8"
+                    src="http://example.com"
+                  />
+                </StyledComponent>
+              </styled.img>
+            </button>
+          </StyledComponent>
+        </styled.button>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;

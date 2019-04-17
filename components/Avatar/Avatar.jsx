@@ -37,7 +37,7 @@ function Avatar({ img, disabled, hoverScale, status, percentage, onClick, classN
         {status}
         <Img
           status={camelcase(status)}
-          alt={status !== 'black' ? `profile avatar for ${status.toLowerCase()} status` : 'avatar'}
+          alt={`profile avatar for ${status.toLowerCase()} status`}
           src={img}
         />
       </StyledAvatar>
