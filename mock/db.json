@@ -1,14 +1,9 @@
 {
   "user": {
     "userName": "json-server",
-    "status": "active"
+    "avatar": "https://pbs.twimg.com/profile_images/1066699912425934848/ak1-6yzy_400x400.jpg"
   },
-  "status": [{
-    "id": 1,
-    "body": "some comment",
-    "postId": 1
-  }],
-  "profile": {
-    "name": "typicode"
+  "status": {
+    "ok": true
   }
 }
